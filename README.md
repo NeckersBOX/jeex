@@ -76,7 +76,7 @@ types, such int, double, char, etc...
 
 ### Plugin
 **Jeex plugins**, as said previously, are _built-in_, i.e. they are internal of program's code. There are not possible 
-adding dynamics plugins ( unless you create a plugin to allow this function ;-) ).
+adding dynamics plugins ( unless you create a plugin to allow this function :wink: ).
 
 By the way, inside the sources you can find **examples plugins** to understand, in easy way, as Jeex gived tools to access 
 to internal components without editing its internal code.
