@@ -1,0 +1,16 @@
+     ../src/bookmark.c   \
+     ../src/general-function.c   \
+     ../src/logging.c   \
+     ../src/notebook-manage.c   \
+     ../src/search.c             \
+     ../src/view.c \
+     ../src/edit.c       \
+     ../src/html-export.c        \
+     ../src/main.c      \
+     ../src/plugin.c            \
+     ../src/terminal-actions.c \
+     ../src/file.c       \
+     ../src/info.c               \
+     ../src/menu.c      \
+     ../src/preferences.c       \
+     ../src/tools.c

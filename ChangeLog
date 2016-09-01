@@ -1,0 +1,55 @@
+ If you have an apple and I have an apple and we exchange apples
+ then you and I will still each have one apple.
+ But if you have an idea and I have an idea and we exchange these
+ ideas, then each of us will have two ideas.
+
+                                          -- George Bernard Shaw
+                                        
+================ 12.6 ==========================================
+2012-12-01 Davide Francesco Merico <hds619@gmail.com>
+	* terminal-actions.c: Fixed '-p, --portion' bug.  Now jeex 
+	  can show a file portions more bigger than 112 byte.
+
+2012-09-25  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* configure.in (AC_OUTPUT): Add po/Makefile.in.
+
+2012-09-25  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* configure.in (AC_OUTPUT): Add po/Makefile.in.
+
+2012-09-25  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* m4/gettext.m4: Upgrade to gettext-0.18.1.
+	* m4/iconv.m4: Upgrade to gettext-0.18.1.
+	* m4/lib-ld.m4: Upgrade to gettext-0.18.1.
+	* m4/lib-link.m4: Upgrade to gettext-0.18.1.
+	* m4/lib-prefix.m4: Upgrade to gettext-0.18.1.
+	* m4/nls.m4: Upgrade to gettext-0.18.1.
+	* m4/po.m4: Upgrade to gettext-0.18.1.
+	* m4/progtest.m4: Upgrade to gettext-0.18.1.
+	* Makefile.am (SUBDIRS): Remove intl.
+	(ACLOCAL_AMFLAGS): New variable.
+	* configure.in (AM_GNU_GETTEXT_VERSION): Bump to 0.18.1.
+
+
+2012-08-28  Davide Francesco Merico <hds619@gmail.com>
+
+	* src/info.c: Added Max Cavallo in the list of contributors.
+
+================ 12.0.4 ========================================
+
+
+2012-03-11 Davide Francesco Merico <hds619@gmail.com>
+
+          * src/terminal-actions.c, src/tools.c: Added the ability to
+            group types if consecutive in the "Show File's Structures". 
+            Example: int(2),char,short(4) 
+            Equal to: int,int,char,short,short,short,short
+          
+          * src/info.c: Added Alkis Mavridis in the list of contributors.
+          
+2012-03-11 Alkis Mavridis <alkismavridis@hotmail.com>
+
+          * po/el.po: Added greek translation
+          

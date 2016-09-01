@@ -1,0 +1,1689 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jeex 12.0.4\n"
+"Report-Msgid-Bugs-To: hds619_at_gmail_dot_com\n"
+"POT-Creation-Date: 2012-12-01 16:22+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/bookmark.c:81
+msgid "New Bookmark"
+msgstr ""
+
+#: src/bookmark.c:86
+#, c-format
+msgid "New Bookmark %d"
+msgstr ""
+
+#: src/bookmark.c:131
+#, c-format
+msgid ""
+"<big><b>Unable to add bookmark</b></big>\n"
+"\n"
+"You can insert max %d bookmarks in list,\n"
+"to add another should delete some with\n"
+"\"<i>Manage Bookmarks</i>\"."
+msgstr ""
+
+#: src/bookmark.c:145 src/menu.c:291
+msgid "Bookmarks"
+msgstr ""
+
+#: src/bookmark.c:160
+msgid "<big><b>Add a bookmark</b></big>\n"
+msgstr ""
+
+#: src/bookmark.c:166 src/bookmark.c:549
+msgid "<b>Bookmark Name:</b>"
+msgstr ""
+
+#: src/bookmark.c:180 src/bookmark.c:562
+msgid "<b>Bookmark Address:</b>"
+msgstr ""
+
+#: src/bookmark.c:199 src/bookmark.c:576
+msgid "<b>Bookmark Description:</b>"
+msgstr ""
+
+#: src/bookmark.c:260 src/bookmark.c:998
+msgid ""
+"<big><b>Unable to add bookmark</b></big>\n"
+"\n"
+"It wasn't possible to add the bookmark because\n"
+"the fields \"Name\" and/or \"Address\" were empty."
+msgstr ""
+
+#: src/bookmark.c:272 src/bookmark.c:1010
+msgid ""
+"<big><b>Unable to add bookmark</b></big>\n"
+"\n"
+"The entered address is empty.\n"
+msgstr ""
+
+#: src/bookmark.c:282 src/bookmark.c:1020
+msgid ""
+"<big><b>Unable to add bookmark</b></big>\n"
+"\n"
+"The entered address is not valid."
+msgstr ""
+
+#: src/bookmark.c:309 src/bookmark.c:1051
+msgid ""
+"<big><b>Unable to add bookmark</b></big>\n"
+"\n"
+"The name chosen for this bookmark is already used\n"
+"by another."
+msgstr ""
+
+#: src/bookmark.c:316
+msgid ""
+"Another bookmark was added with the same address.\n"
+"\n"
+"Add it?"
+msgstr ""
+
+#: src/bookmark.c:405
+#, c-format
+msgid ""
+"\"%s\"\n"
+"Go to address."
+msgstr ""
+
+#: src/bookmark.c:410
+msgid "Go to address."
+msgstr ""
+
+#: src/bookmark.c:449
+msgid ""
+"<b><big>Unable to organize bookmarks</big></b>\n"
+"\n"
+"It wasn't possible to organize the bookmarks because\n"
+"there are no bookmarks saved.\n"
+msgstr ""
+
+#: src/bookmark.c:464 src/menu.c:267
+msgid "Manage Bookmarks"
+msgstr ""
+
+#: src/bookmark.c:479
+msgid "<big><b>Manage Bookmarks</b></big>\n"
+msgstr ""
+
+#: src/bookmark.c:486
+msgid "<i>Select the bookmark:</i>"
+msgstr ""
+
+#: src/bookmark.c:684
+msgid ""
+"<big><b>Bookmark not found</b></big>\n"
+"\n"
+"Selected bookmark wasn't found, probably this is a <b>bug</b>.\n"
+"Please report at: <i>hds619@gmail.com</i>."
+msgstr ""
+
+#: src/bookmark.c:781
+msgid ""
+"<big><b>Unable to organize bookmarks</b></big>\n"
+"\n"
+"Cannot continue to organize bookmarks because\n"
+"there are no more bookmarks."
+msgstr ""
+
+#: src/bookmark.c:1058
+msgid ""
+"Another bookmark was added with the same address.\n"
+"\n"
+"Modify it?"
+msgstr ""
+
+#: src/general-function.c:283
+msgid "Space"
+msgstr ""
+
+#: src/general-function.c:303
+msgid "Unprintable"
+msgstr ""
+
+#: src/general-function.c:384
+#, c-format
+msgid "Offset: %8.8X - Column: %d - Size: %s ( %d byte )"
+msgstr ""
+
+#: src/general-function.c:392
+#, c-format
+msgid "Offset: %8.8X - Column: %d"
+msgstr ""
+
+#: src/general-function.c:414 src/view.c:678 src/view.c:689 src/main.c:251
+#: src/file.c:651
+msgid "No File Open"
+msgstr ""
+
+#: src/general-function.c:498
+msgid "Error"
+msgstr ""
+
+#: src/general-function.c:559
+msgid "Quit"
+msgstr ""
+
+#: src/general-function.c:568
+msgid ""
+"\n"
+" Are you sure to quit Jeex? \n"
+" ( Unsaved changes will be lost ) \n"
+msgstr ""
+
+#: src/general-function.c:602
+msgid "Show jeex window."
+msgstr ""
+
+#: src/general-function.c:614
+msgid "Hide jeex window."
+msgstr ""
+
+#: src/general-function.c:919
+msgid ""
+"<big><b>Invalid value</b></big>\n"
+"\n"
+"Value must be between 255 and -255.\n"
+"It is the maximum value supported by a byte."
+msgstr ""
+
+#: src/general-function.c:942
+msgid "<big><b>The entered value entered is not valid.</b></big>"
+msgstr ""
+
+#: src/general-function.c:987
+msgid ""
+"<big><b>Invalid Value</b></big>\n"
+"\n"
+"The entered value entered includes values less\n"
+"than 0 or greater than 7, not admitted\n"
+"in octal numbers."
+msgstr ""
+
+#: src/general-function.c:999 src/general-function.c:1031
+msgid ""
+"<big><b>Invalid Value</b></big>\n"
+"\n"
+"Value must be between 255 and -255.\n"
+"It is the maximum value supported by a byte."
+msgstr ""
+
+#: src/general-function.c:1020
+msgid ""
+"<big><b>Invalid Value</b></big>\n"
+"\n"
+"Value entered includes characters other\n"
+"than 0 and 1, not admitted in binary numbers.\n"
+msgstr ""
+
+#: src/general-function.c:1066
+msgid ""
+"<big><b>Unknown Operation</b></big>\n"
+"\n"
+"Report this bug to: hds619@gmail.com"
+msgstr ""
+
+#: src/logging.c:49
+msgid ""
+"<big><b>Error while saving log</b></big>\n"
+"\n"
+"Unable to make the <i>.config/jeex/log</i> folder in your home.\n"
+msgstr ""
+
+#: src/logging.c:71
+msgid ""
+"<big><b>Error while saving log</b></big>\n"
+"\n"
+"Unable to open a log file for logging your action with\n"
+"jeex. Check the permission."
+msgstr ""
+
+#: src/notebook-manage.c:73
+msgid ""
+"<big><b>File has been modified</b></big>\n"
+"\n"
+"This file has been modified by another program.\n"
+"Press <b>Cancel</b> not to show this warning or\n"
+"<b>Update</b> to update the text."
+msgstr ""
+
+#: src/notebook-manage.c:102
+msgid "Text: "
+msgstr ""
+
+#: src/notebook-manage.c:164
+msgid "Regex: "
+msgstr ""
+
+#: src/notebook-manage.c:299
+msgid ""
+"<big><b>Too many tabs open!!</b></big>\n"
+"\n"
+"Jeex cannot handle more than 64 tabs at once!"
+msgstr ""
+
+#: src/search.c:130 src/search.c:608
+msgid ""
+"<big><b>No files open</b></big>\n"
+"\n"
+"Cannot start a search in the text.\n"
+"You must open a file first!"
+msgstr ""
+
+#: src/search.c:140 src/search.c:618
+msgid "Find"
+msgstr ""
+
+#: src/search.c:151 src/search.c:629
+msgid "Find: "
+msgstr ""
+
+#: src/search.c:170 src/search.c:227
+msgid "Format: "
+msgstr ""
+
+#: src/search.c:208
+msgid " Replace with: "
+msgstr ""
+
+#: src/search.c:265 src/search.c:685
+msgid "Start search from the beginning."
+msgstr ""
+
+#: src/search.c:270 src/search.c:690
+msgid "Start search from the end."
+msgstr ""
+
+#: src/search.c:288 src/main.c:457
+msgid "Replace"
+msgstr ""
+
+#: src/search.c:298
+msgid "Replace All"
+msgstr ""
+
+#: src/search.c:458 src/search.c:918
+#, c-format
+msgid "String '%s' not found."
+msgstr ""
+
+#: src/search.c:567
+#, c-format
+msgid "String '%s' not found"
+msgstr ""
+
+#: src/search.c:574
+#, c-format
+msgid "Found and replaced %i occurrences."
+msgstr ""
+
+#: src/search.c:647
+msgid " Format: "
+msgstr ""
+
+#: src/search.c:980 src/menu.c:256
+msgid "Go to offset"
+msgstr ""
+
+#: src/search.c:991
+msgid "Offset: "
+msgstr ""
+
+#: src/search.c:1058
+msgid "<big><b>String is empty.</b></big>"
+msgstr ""
+
+#: src/search.c:1068
+msgid "<big><b>Entered offset not valid.</b></big>"
+msgstr ""
+
+#: src/search.c:1139
+msgid "<big><b>Error while make a new regex.</b></big>"
+msgstr ""
+
+#: src/search.c:1155 src/search.c:1260
+msgid "<big><b>Time available exhausted</b></big>"
+msgstr ""
+
+#: src/search.c:1233
+msgid "<big><b>Regex not found.</b></big>"
+msgstr ""
+
+#: src/view.c:82 src/menu.c:223
+msgid "Characters Table"
+msgstr ""
+
+#: src/view.c:97
+msgid ""
+"Here is the list of characters converted in ascii,\n"
+"binary, hexadecimal and octal.\n"
+msgstr ""
+
+#: src/view.c:192
+msgid "Hexadecimal"
+msgstr ""
+
+#: src/view.c:193 src/view.c:336 src/view.c:483
+msgid "Decimal"
+msgstr ""
+
+#: src/view.c:194 src/view.c:335 src/view.c:482
+msgid "Octal"
+msgstr ""
+
+#: src/view.c:195 src/view.c:334 src/view.c:481
+msgid "Binary"
+msgstr ""
+
+#: src/view.c:196
+msgid "Text"
+msgstr ""
+
+#: src/view.c:197
+msgid "Occurrence"
+msgstr ""
+
+#: src/view.c:198
+msgid "Percent"
+msgstr ""
+
+#: src/view.c:210 src/menu.c:204
+msgid "Document Statistics"
+msgstr ""
+
+#: src/view.c:224
+msgid "<big><b>Document Statistics</b></big>"
+msgstr ""
+
+#: src/view.c:255
+#, c-format
+msgid ""
+"<b>Document Rows:</b>\t\t%d\n"
+"<b>Document Space:</b>\t\t%d\n"
+"<b>Document Characters:</b>\t%d\n"
+msgstr ""
+
+#: src/view.c:333 src/view.c:480
+msgid "Ascii"
+msgstr ""
+
+#: src/view.c:459
+msgid "Document in other format"
+msgstr ""
+
+#: src/view.c:475
+msgid "<i>Choose format:</i>"
+msgstr ""
+
+#: src/view.c:593
+#, c-format
+msgid "<b>%d</b>: <i>start</i> ( %8.8X ) "
+msgstr ""
+
+#: src/view.c:598
+#, c-format
+msgid "- <i>end</i> ( %8.8X )\n"
+msgstr ""
+
+#: src/view.c:619
+msgid "Differences with other files"
+msgstr ""
+
+#: src/view.c:632
+msgid "<big><b>Differences with other files</b></big>\n"
+msgstr ""
+
+#: src/view.c:654
+msgid "<b>File name to compare:</b>"
+msgstr ""
+
+#: src/view.c:659
+msgid "Choose a compare file..."
+msgstr ""
+
+#: src/view.c:675
+msgid "Shared parts:"
+msgstr ""
+
+#: src/view.c:736
+msgid "Hash View"
+msgstr ""
+
+#: src/view.c:753
+msgid "Hash content"
+msgstr ""
+
+#: src/view.c:801
+#, c-format
+msgid "View - %s ( %s )"
+msgstr ""
+
+#: src/view.c:806
+msgid "View - New File"
+msgstr ""
+
+#: src/edit.c:61
+#, c-format
+msgid "Updating file `%s'\n"
+msgstr ""
+
+#: src/edit.c:75 src/file.c:950
+msgid ""
+"<big><b>Unable to open file</b></big>\n"
+"\n"
+"The file you are trying to open is a directory."
+msgstr ""
+
+#: src/edit.c:85
+#, c-format
+msgid ""
+"<big><b>File too large!</b></big>\n"
+"\n"
+"File size higher than <i>%s</i>."
+msgstr ""
+
+#: src/edit.c:205
+msgid "Operations with bits"
+msgstr ""
+
+#: src/edit.c:217
+msgid "<big><b>Operations with bits</b></big>"
+msgstr ""
+
+#: src/edit.c:232
+msgid "<b>First Byte Value</b>"
+msgstr ""
+
+#: src/edit.c:263
+msgid "<b>Last Byte Value</b>"
+msgstr ""
+
+#: src/edit.c:284
+msgid "<b>Result</b>"
+msgstr ""
+
+#: src/edit.c:299
+msgid "<b>First Byte's bits</b>"
+msgstr ""
+
+#: src/edit.c:321
+msgid "<b>Last Byte's bits</b>"
+msgstr ""
+
+#: src/html-export.c:107
+msgid "Html Export"
+msgstr ""
+
+#: src/html-export.c:116
+msgid ""
+"<big><b>HTML Export</b></big>\n"
+"<i>Dialog to setting the preferences</i>"
+msgstr ""
+
+#: src/html-export.c:128
+msgid "<b>Output Folder:</b>"
+msgstr ""
+
+#: src/html-export.c:132
+msgid "Choose File..."
+msgstr ""
+
+#: src/html-export.c:136
+msgid "<b>Name:</b>"
+msgstr ""
+
+#: src/html-export.c:147
+msgid "<big><b>Page Style</b></big>\n"
+msgstr ""
+
+#: src/html-export.c:155
+msgid "<b>Rows for page:</b>\t\t\t\t"
+msgstr ""
+
+#: src/html-export.c:167
+msgid "<b>Font Size:</b>\t\t\t\t\t"
+msgstr ""
+
+#: src/html-export.c:175 src/html-export.c:207
+msgid " <i>pixel</i>"
+msgstr ""
+
+#: src/html-export.c:183
+msgid "<b>Show extended ascii characters:</b>\t"
+msgstr ""
+
+#: src/html-export.c:187
+msgid "Disable"
+msgstr ""
+
+#: src/html-export.c:188
+msgid "Enable"
+msgstr ""
+
+#: src/html-export.c:199
+msgid "<b>Border width:</b>\t\t\t\t\t"
+msgstr ""
+
+#: src/html-export.c:215
+msgid "<b>Border style:</b>\t\t\t\t\t"
+msgstr ""
+
+#: src/html-export.c:239
+msgid "<b>Font color:</b>\t\t\t\t\t"
+msgstr ""
+
+#: src/html-export.c:261
+msgid "<b>Border color:</b>\t\t\t\t\t"
+msgstr ""
+
+#: src/html-export.c:315
+msgid "<big><b>Output Filename is empty!</b></big>\n"
+msgstr ""
+
+#: src/html-export.c:356
+msgid ""
+"If you press OK, after this message,\n"
+"jeex maked more 500 files!\n"
+"\n"
+"Continue?"
+msgstr ""
+
+#: src/html-export.c:360 src/html-export.c:366
+#, c-format
+msgid "Exported `%s' to HTML `%s'\n"
+msgstr ""
+
+#: src/html-export.c:430
+msgid "Hexadecimal Dump of"
+msgstr ""
+
+#: src/html-export.c:549
+msgid "Page"
+msgstr ""
+
+#: src/html-export.c:616
+msgid "Previous Page"
+msgstr ""
+
+#: src/html-export.c:627
+msgid "Next Page"
+msgstr ""
+
+#: src/html-export.c:634
+msgid "%d/%m/%Y %X"
+msgstr ""
+
+#: src/html-export.c:637
+msgid "Generate Date:"
+msgstr ""
+
+#: src/main.c:97
+msgid ""
+"Usage:\n"
+"  jeex [OPTION...] [FILE 1] [FILE 2] [...] [FILE 64]\n"
+"\n"
+"Help Options:\n"
+"  -h, --help\n"
+"\tShows this help.\n"
+"  -g, --help-gtk\n"
+"\tShows the Gtk+ Options.\n"
+"\n"
+"Jeex Options:\n"
+"  -v, --version\n"
+"\tShows the Jeex version.\n"
+"  -b [FILE], --show-bytes [FILE]\n"
+"\tShows the file's bytes.\n"
+"  -s [FILE:type1,type2,...], --show-struct [FILE:type1,type2,...]\n"
+"\tShows the file's portion.\n"
+"  -p [FILE:start_byte,end_byte], --show-portion [FILE:start_byte,end_byte]\n"
+"\tShows the file's data in structures with types specified.\n"
+"\n"
+msgstr ""
+
+#: src/main.c:117
+msgid ""
+"Usage:\n"
+"  jeex [OPTION...] [FILE 1] [FILE 2] [...] [FILE 64]\n"
+"\n"
+"Gtk+ Options:\n"
+"\n"
+"  --class=CLASS         Program class as used by the window manager\n"
+"  --name=NAME           Program name as used by the window manager\n"
+"  --display=DISPLAY     X display to use\n"
+"  --screen=SCREEN       X screen to use\n"
+"  --sync                Make X calls synchronous\n"
+"  --gtk-module=MODULES  Load additional GTK+ modules\n"
+"  --g-fatal-warnings    Make all warnings fatal\n"
+"  --gdk-debug=FLAGS     Gdk debugging flags to set\n"
+"  --gdk-no-debug=FLAGS  Gdk debugging flags to unset\n"
+"  --no-xshm             Don't use X shared memory extesion\n"
+"  --gxid_host=HOST\n"
+"  --gxid_port=PORT\n"
+"  --xim-preedit=STYLE\n"
+"  --xim-status=STYLE\n"
+"  --gtk-debug=FLAGS     Gtk+ debugging flags to set\n"
+"  --gtk-no-debug=FLAGS  Gtk+ debugging flags to unset\n"
+"\n"
+msgstr ""
+
+#: src/main.c:179
+msgid ""
+"Allows you to show or hide the jeex\n"
+"main window."
+msgstr ""
+
+#: src/main.c:248
+msgid "Start jeex session! :)\n"
+msgstr ""
+
+#: src/main.c:353
+msgid "End jeex session! :(\n"
+msgstr ""
+
+#: src/main.c:377
+msgid "Create a new file"
+msgstr ""
+
+#: src/main.c:386 src/menu.c:82
+msgid "Open a file"
+msgstr ""
+
+#: src/main.c:395 src/menu.c:96
+msgid "Save the current file"
+msgstr ""
+
+#: src/main.c:411 src/main.c:421 src/main.c:431
+msgid "Update the current file"
+msgstr ""
+
+#: src/main.c:447
+msgid "Search more bytes in the current file"
+msgstr ""
+
+#: src/main.c:459
+msgid "Search and Replace more bytes in the current file"
+msgstr ""
+
+#: src/main.c:474
+msgid " <i>Signed 8 bit:</i> "
+msgstr ""
+
+#: src/main.c:485
+msgid " <i>Unsigned 8 bit:</i> "
+msgstr ""
+
+#: src/main.c:497
+msgid " <i>Ascii:</i> "
+msgstr ""
+
+#: src/main.c:508
+msgid " <i>Binary:</i> "
+msgstr ""
+
+#: src/main.c:520
+msgid " <i>Octal:</i> "
+msgstr ""
+
+#: src/main.c:531
+msgid " <i>Hexadecimal:</i> "
+msgstr ""
+
+#: src/main.c:562
+msgid "<b>Structure's types:</b>"
+msgstr ""
+
+#: src/main.c:571
+msgid "Example: int,double(repeat_n),char,int"
+msgstr ""
+
+#: src/main.c:588
+msgid "<b><span color=\"#990000\">Values <u>NOT</u> valid.</span></b>"
+msgstr ""
+
+#: src/main.c:641
+msgid "Structure 1/1"
+msgstr ""
+
+#: src/terminal-actions.c:48 src/terminal-actions.c:104
+#: src/terminal-actions.c:412
+msgid "Cannot open stream.\n"
+msgstr ""
+
+#: src/terminal-actions.c:51
+msgid "Reading Bytes...\n"
+msgstr ""
+
+#: src/terminal-actions.c:58
+msgid ""
+"Formatting Bytes...\n"
+"\n"
+msgstr ""
+
+#: src/terminal-actions.c:75 src/terminal-actions.c:449
+msgid "Generated with"
+msgstr ""
+
+#: src/terminal-actions.c:146
+msgid "Not Valid Structure.\n"
+msgstr ""
+
+#: src/terminal-actions.c:176 src/terminal-actions.c:392
+msgid "Not valid argument.\n"
+msgstr ""
+
+#: src/terminal-actions.c:215
+#, c-format
+msgid ""
+"Unsupported Type \"%s\".\n"
+"Usable types: "
+msgstr ""
+
+#: src/terminal-actions.c:400
+#, c-format
+msgid "Start byte (%d) > End byte (%d)\n"
+msgstr ""
+
+#: src/terminal-actions.c:406
+#, c-format
+msgid "Start byte (%d) == End byte (%d)\n"
+msgstr ""
+
+#: src/terminal-actions.c:421
+#, c-format
+msgid "End byte (%d) > Length File (%d)\n"
+msgstr ""
+
+#: src/file.c:292
+msgid ""
+"<big><b>Error while opening the file</b></big>\n"
+"\n"
+msgstr ""
+
+#: src/file.c:298
+msgid ""
+"File cannot be read because you don't have\n"
+"sufficient rights."
+msgstr ""
+
+#: src/file.c:303
+msgid "File cannot be open because it wasn't found."
+msgstr ""
+
+#: src/file.c:307
+msgid ""
+"File cannot be read because the name is too\n"
+"long. Usually max length is 255."
+msgstr ""
+
+#: src/file.c:312
+msgid ""
+"File cannot be open because is used by other\n"
+"operations or processes."
+msgstr ""
+
+#: src/file.c:317
+msgid ""
+"The file you're trying to open is a symbolic\n"
+"link to another symbolic link.\n"
+"This then creates an endless cycle of\n"
+"links and makes it impossible to determine\n"
+"the final file to be opened."
+msgstr ""
+
+#: src/file.c:326 src/file.c:358
+msgid ""
+"<b><big>Space in memory exhausted!</big></b>\n"
+"\n"
+"Space in virtual memory is exhausted, this makes\n"
+"it impossible to load the file into RAM."
+msgstr ""
+
+#: src/file.c:333
+msgid ""
+"File cannot be read because a I/O error has occurred.\n"
+"Check that the device you are trying to read from\n"
+"isn't damaged."
+msgstr ""
+
+#: src/file.c:338
+msgid "An unknown error has occurred while opening the file."
+msgstr ""
+
+#: src/file.c:343
+msgid ""
+"<big><b>Error while saving the file</b></big>\n"
+"\n"
+msgstr ""
+
+#: src/file.c:348
+msgid ""
+"File cannot be saved because you don't have\n"
+"sufficient rights."
+msgstr ""
+
+#: src/file.c:352
+msgid ""
+"File cannot be saved because the name is too\n"
+"long. Usually max length is 255."
+msgstr ""
+
+#: src/file.c:365
+msgid ""
+"File cannot be saved because a I/O error has occurred.\n"
+"Checks that the device you are trying to save from\n"
+"isn't damaged."
+msgstr ""
+
+#: src/file.c:370
+msgid "An unknown error has occurred while saving the file."
+msgstr ""
+
+#: src/file.c:376
+msgid ""
+"<big><b>Unknown Error</b></big>\n"
+"\n"
+"It wasn't possible to identify the error\n"
+"occurred while opening the file.\n"
+"\n"
+"Report this bug to: <i>hds619@gmail.com</i>"
+msgstr ""
+
+#: src/file.c:487 src/file.c:491
+msgid "%a %m %b %Y %H:%M:%S"
+msgstr ""
+
+#: src/file.c:499
+#, c-format
+msgid ""
+" <span font_weight=\"bold\">Mime Type:</span> %s \n"
+" <span font_weight=\"bold\">Last access:</span> %s\n"
+" <span font_weight=\"bold\">Last modify:</span> %s\n"
+" <span font_weight=\"bold\">Permissions:</span> <span style=\"italic\">%s</"
+"span>"
+msgstr ""
+
+#: src/file.c:526
+#, c-format
+msgid ""
+"  <span font_weight=\"bold\">File Size: </span>  <span style=\"italic\">%s</"
+"span>  ( <i>%d</i> byte )\n"
+"  <span font_weight=\"bold\">File Path: </span>  <span style=\"italic\">N/D</"
+"span>\n"
+"  <span font_weight=\"bold\">File Name: </span>  <span style=\"italic\">N/D</"
+"span>\n"
+msgstr ""
+
+#: src/file.c:559
+#, c-format
+msgid ""
+" <span font_weight=\"bold\">File Size: </span> <span style=\"italic\">%s</"
+"span>  ( <span style=\"italic\">%d</span> byte )\n"
+" <span font_weight=\"bold\">File Path: </span><span style=\"italic\">%s</"
+"span>\n"
+" <span font_weight=\"bold\">File Name: </span><span style=\"italic\">%s</"
+"span>\n"
+"\n"
+"%s\n"
+msgstr ""
+
+#: src/file.c:708
+#, c-format
+msgid "Closed file `%s'\n"
+msgstr ""
+
+#: src/file.c:905
+#, c-format
+msgid "Opened file `%s'\n"
+msgstr ""
+
+#: src/file.c:987
+#, c-format
+msgid ""
+"<big><b>File too big!</b></big>\n"
+"\n"
+"The file size exceeds <i>%s</i>."
+msgstr ""
+
+#: src/file.c:991
+msgid "File opened is too big!\n"
+msgstr ""
+
+#: src/file.c:1026
+#, c-format
+msgid ""
+"<big><b>File too big!</b></big>\n"
+"\n"
+"The file is too big for the system!\n"
+"You have only <b>%s</b> of RAM."
+msgstr ""
+
+#: src/file.c:1031
+msgid "File opened is too big for the system!\n"
+msgstr ""
+
+#: src/file.c:1180 src/file.c:1235
+msgid "Open File..."
+msgstr ""
+
+#: src/file.c:1321
+msgid "Select Folder..."
+msgstr ""
+
+#: src/file.c:1348
+#, c-format
+msgid "Opened position `%s'\n"
+msgstr ""
+
+#: src/file.c:1351
+msgid "Cannot open input folder."
+msgstr ""
+
+#: src/file.c:1417
+#, c-format
+msgid "Saving backup copy of `%s'..\n"
+msgstr ""
+
+#: src/file.c:1420
+msgid "<big><b>Error to making a backup copy</b></big>"
+msgstr ""
+
+#: src/file.c:1427
+msgid "Backup copy not created. An unknow error has occurred.\n"
+msgstr ""
+
+#: src/file.c:1430
+msgid "Backup copy created. No error has occurred.\n"
+msgstr ""
+
+#: src/file.c:1435
+#, c-format
+msgid "Saving file `%s'..\n"
+msgstr ""
+
+#: src/file.c:1439
+#, c-format
+msgid "Error has occurred while saving the file `%s'\n"
+msgstr ""
+
+#: src/file.c:1521
+#, c-format
+msgid "File `%s' has been saved.\n"
+msgstr ""
+
+#: src/file.c:1566 src/file.c:1705
+msgid "Generic File"
+msgstr ""
+
+#: src/file.c:1567
+msgid "Jeex File: Ascii ( *.jascii )"
+msgstr ""
+
+#: src/file.c:1568
+msgid "Jeex File: Octal ( *.joct )"
+msgstr ""
+
+#: src/file.c:1569
+msgid "Jeex File: Hexadecimal ( *.jhex )"
+msgstr ""
+
+#: src/file.c:1570
+msgid "Jeex File: Decimal ( *.jdec )"
+msgstr ""
+
+#: src/file.c:1570
+msgid "Jeex File: Binary ( *.jbin )"
+msgstr ""
+
+#: src/file.c:1588
+msgid "Untitle File"
+msgstr ""
+
+#: src/file.c:1706
+msgid "Jeex Ascii File"
+msgstr ""
+
+#: src/file.c:1707
+msgid "Jeex Octal File"
+msgstr ""
+
+#: src/file.c:1708
+msgid "Jeex Hexadecimal File"
+msgstr ""
+
+#: src/file.c:1708
+msgid "Jeex Decimal File"
+msgstr ""
+
+#: src/file.c:1708
+msgid "Jeex Binary File"
+msgstr ""
+
+#: src/file.c:1710
+msgid "Select File Type ( By Extension )"
+msgstr ""
+
+#: src/file.c:1719
+msgid "Description"
+msgstr ""
+
+#: src/file.c:1724
+msgid "Extension"
+msgstr ""
+
+#: src/file.c:1772
+msgid ""
+"<big><b>Unable to save the file</b></big>.\n"
+"\n"
+"No files were opened."
+msgstr ""
+
+#: src/file.c:1777
+msgid "Save File As.."
+msgstr ""
+
+#: src/file.c:1849
+msgid ""
+"<big><b>Cannot restart Jeex</b></big>\n"
+"\n"
+"Link not found."
+msgstr ""
+
+#: src/file.c:1853
+msgid "Restarted jeex..\n"
+msgstr ""
+
+#: src/file.c:1866
+msgid "Are you sure you want to delete the currently open file?"
+msgstr ""
+
+#: src/file.c:1868
+msgid "File wasn't deleted."
+msgstr ""
+
+#: src/file.c:1874
+msgid "Cannot delete the file."
+msgstr ""
+
+#: src/file.c:1878
+#, c-format
+msgid "Removed file `%s'\n"
+msgstr ""
+
+#: src/file.c:1880
+msgid "File has been deleted."
+msgstr ""
+
+#: src/file.c:1896
+msgid "Created a new file.\n"
+msgstr ""
+
+#: src/file.c:1899 src/file.c:1905
+msgid "New File"
+msgstr ""
+
+#: src/file.c:1991
+msgid "Properties"
+msgstr ""
+
+#: src/file.c:2003
+msgid "<big><b>Properties</b></big>"
+msgstr ""
+
+#: src/file.c:2008
+msgid "Information"
+msgstr ""
+
+#: src/info.c:58
+#, c-format
+msgid "Open the jeex project homepage with %s browser.\n"
+msgstr ""
+
+#: src/info.c:103
+msgid ""
+"\n"
+" Jeex is free software; you can redistribute it and/or modify\n"
+" it under the terms of the GNU General Public License as published\n"
+" by the Free Software Foundation; either version 3 of the License,\n"
+" or (at your option) any later version.\n"
+"\n"
+msgstr ""
+
+#: src/info.c:109
+msgid ""
+" Jeex is distributed in the hope that it will be useful,\n"
+" but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+" GNU General Public License for more details.\n"
+"\n"
+msgstr ""
+
+#: src/info.c:114
+msgid ""
+" You should have received a copy of the GNU General Public License\n"
+" along with this program; if not, write to the Free Software \n"
+" Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,\n"
+" MA 02110-1301, USA."
+msgstr ""
+
+#: src/info.c:128
+msgid ""
+"Jeex is a small hexadecimal editor\n"
+"created with Gtk+."
+msgstr ""
+
+#: src/menu.c:79
+msgid "Make a new file"
+msgstr ""
+
+#: src/menu.c:84
+msgid "Open position.."
+msgstr ""
+
+#: src/menu.c:86
+msgid "Open all files of the selected folder."
+msgstr ""
+
+#: src/menu.c:88
+msgid "Append File"
+msgstr ""
+
+#: src/menu.c:90
+msgid "Append the selected file at end of current file."
+msgstr ""
+
+#: src/menu.c:100
+msgid "Save the current file as..."
+msgstr ""
+
+#: src/menu.c:102
+msgid "Export to HTML"
+msgstr ""
+
+#: src/menu.c:105
+msgid "Export the current file in HTML"
+msgstr ""
+
+#: src/menu.c:112
+msgid "Remove the current file from hard disk"
+msgstr ""
+
+#: src/menu.c:115
+msgid "View file's properties"
+msgstr ""
+
+#: src/menu.c:118
+msgid "Close the current file"
+msgstr ""
+
+#: src/menu.c:123
+msgid "Restart Jeex"
+msgstr ""
+
+#: src/menu.c:126
+msgid ""
+"Restart Jeex\n"
+"( Unsaved changes will be lost )"
+msgstr ""
+
+#: src/menu.c:131
+msgid "File"
+msgstr ""
+
+#: src/menu.c:139
+msgid "Copy the selected text"
+msgstr ""
+
+#: src/menu.c:142
+msgid "Cut the selected text"
+msgstr ""
+
+#: src/menu.c:145
+msgid "Paste the cutted or copied text"
+msgstr ""
+
+#: src/menu.c:148
+msgid "Delete the selected text"
+msgstr ""
+
+#: src/menu.c:150
+msgid "Insert"
+msgstr ""
+
+#: src/menu.c:152
+msgid ""
+"Insert a binary, hexadecimal, ascii\n"
+"or octal text into current file."
+msgstr ""
+
+#: src/menu.c:155
+msgid "Insert from bit operation"
+msgstr ""
+
+#: src/menu.c:158
+msgid "Insert a byte result from your operation with bits"
+msgstr ""
+
+#: src/menu.c:160
+msgid "Reverse"
+msgstr ""
+
+#: src/menu.c:162
+msgid "Reverse the selected text"
+msgstr ""
+
+#: src/menu.c:178
+msgid ""
+"Delete all the contents of the file.\n"
+"The original file can be restored by\n"
+"clicking on the refresh button."
+msgstr ""
+
+#: src/menu.c:186
+msgid "Change jeex settings"
+msgstr ""
+
+#: src/menu.c:188
+msgid "Edit"
+msgstr ""
+
+#: src/menu.c:195
+msgid "Add View"
+msgstr ""
+
+#: src/menu.c:199
+msgid "Show Hash"
+msgstr ""
+
+#: src/menu.c:202
+msgid ""
+"View MD5, SHA-1 and SHA-256 hashes\n"
+"of the current file"
+msgstr ""
+
+#: src/menu.c:208
+msgid "Difference with another file"
+msgstr ""
+
+#: src/menu.c:211
+msgid ""
+"View the current file differences\n"
+"with another chosen file"
+msgstr ""
+
+#: src/menu.c:214
+msgid "Show in other format"
+msgstr ""
+
+#: src/menu.c:217
+msgid ""
+"View the current file in other format, example:\n"
+"ascii, octal, decimal, etc.."
+msgstr ""
+
+#: src/menu.c:226
+msgid ""
+"View the characters table converted in binary,\n"
+"hexadecimal, octal and decimal."
+msgstr ""
+
+#: src/menu.c:229
+msgid "View"
+msgstr ""
+
+#: src/menu.c:237
+msgid "Search bytes in the current file"
+msgstr ""
+
+#: src/menu.c:241
+msgid "Search and replace bytes in the current file"
+msgstr ""
+
+#: src/menu.c:243
+msgid "Search byte with regex"
+msgstr ""
+
+#: src/menu.c:250
+msgid "Clear Highlight"
+msgstr ""
+
+#: src/menu.c:258
+msgid "Moves the scrollbar into chosen offset."
+msgstr ""
+
+#: src/menu.c:260
+msgid "Search"
+msgstr ""
+
+#: src/menu.c:269
+msgid "Manage the bookmarks."
+msgstr ""
+
+#: src/menu.c:271
+msgid "Add bookmark"
+msgstr ""
+
+#: src/menu.c:273
+msgid "Add a bookmark."
+msgstr ""
+
+#: src/menu.c:281
+msgid "Next bookmark"
+msgstr ""
+
+#: src/menu.c:283
+msgid "Go to the next bookmark."
+msgstr ""
+
+#: src/menu.c:286
+msgid "Previous bookmark"
+msgstr ""
+
+#: src/menu.c:288
+msgid "Go to the previous bookmark."
+msgstr ""
+
+#: src/menu.c:299
+msgid "Extracts all Strings"
+msgstr ""
+
+#: src/menu.c:301
+msgid "Extract all strings in the current file"
+msgstr ""
+
+#: src/menu.c:303
+msgid "Split the current file"
+msgstr ""
+
+#: src/menu.c:306
+msgid "Split the current file in files with fix size"
+msgstr ""
+
+#: src/menu.c:308
+msgid "Show file's structures"
+msgstr ""
+
+#: src/menu.c:311
+msgid "Show the file's data in personalized structures"
+msgstr ""
+
+#: src/menu.c:313
+msgid "Tools"
+msgstr ""
+
+#: src/menu.c:363
+msgid ""
+"View information about Jeex:\n"
+"Credits, License and Version."
+msgstr ""
+
+#: src/menu.c:366
+msgid "Help"
+msgstr ""
+
+#: src/preferences.c:34 src/preferences.c:464
+msgid "Preferences"
+msgstr ""
+
+#: src/preferences.c:139
+msgid ""
+"<big><b>Error while saving the preferences</b></big>\n"
+"\n"
+"Unable to create the <i>.config/jeex</i> folder in your home.\n"
+"This makes it impossible to save your preferences\n"
+"for future sessions."
+msgstr ""
+
+#: src/preferences.c:186 src/preferences.c:211
+msgid ""
+"<big><b>Error while saving the preferences</b></big>\n"
+"\n"
+msgstr ""
+
+#: src/preferences.c:192
+msgid ""
+"An I/O error has occurred. Check that the device\n"
+"you're trying to save to is not damaged."
+msgstr ""
+
+#: src/preferences.c:196
+msgid "The file you are trying to save to is a directory."
+msgstr ""
+
+#: src/preferences.c:199
+msgid "The file cannot be open because it cannot be found."
+msgstr ""
+
+#: src/preferences.c:202
+msgid "An unknown error has occurred while file saving."
+msgstr ""
+
+#: src/preferences.c:212
+msgid "Resource temporarily unavailable."
+msgstr ""
+
+#: src/preferences.c:279 src/preferences.c:371
+msgid ""
+"<big><b>Error while loading the preferences</b></big>\n"
+"\n"
+msgstr ""
+
+#: src/preferences.c:330
+msgid ""
+"<big><b>Error while saving the preferences</b></big>\n"
+"\n"
+"Unable to make the <i>.jeex</i> folder in your home.\n"
+"This makes it impossible to save your preferences\n"
+"for future sessions."
+msgstr ""
+
+#: src/preferences.c:379
+msgid ""
+"Preferences file that you trying to examine\n"
+"is in a unknown format."
+msgstr ""
+
+#: src/preferences.c:383
+msgid "Preferences file wasn't found."
+msgstr ""
+
+#: src/preferences.c:386
+msgid "Unknown Error."
+msgstr ""
+
+#: src/preferences.c:473
+msgid "<big><b>Setting your preferences</b></big>"
+msgstr ""
+
+#: src/preferences.c:572
+msgid "<b>File Loading</b>"
+msgstr ""
+
+#: src/preferences.c:579
+msgid "\tMax file size: "
+msgstr ""
+
+#: src/preferences.c:599
+msgid "\tMax loading buffer: "
+msgstr ""
+
+#: src/preferences.c:623
+msgid "<b>Max Elements</b>"
+msgstr ""
+
+#: src/preferences.c:630
+msgid "\tBookmarks: "
+msgstr ""
+
+#: src/preferences.c:640
+msgid "\tRecent files: "
+msgstr ""
+
+#: src/preferences.c:650
+msgid "\tChars in the tab title: "
+msgstr ""
+
+#: src/preferences.c:663
+msgid "<b>File Saving</b>"
+msgstr ""
+
+#: src/preferences.c:670
+msgid "\tMax saving buffer: "
+msgstr ""
+
+#: src/preferences.c:694
+msgid "Create a backup copy of files before saving"
+msgstr ""
+
+#: src/preferences.c:705
+msgid "Log actions"
+msgstr ""
+
+#: src/preferences.c:710
+msgid "<b>Editor</b>"
+msgstr ""
+
+#: src/preferences.c:754
+msgid "<b>Font &amp; Color</b>"
+msgstr ""
+
+#: src/preferences.c:761
+msgid "\tFont: "
+msgstr ""
+
+#: src/preferences.c:770
+msgid "\tText color: "
+msgstr ""
+
+#: src/preferences.c:791
+msgid "<b>Appearance Main Window</b>"
+msgstr ""
+
+#: src/preferences.c:800
+msgid "\tTransparency: "
+msgstr ""
+
+#: src/preferences.c:814
+msgid "\tTheme: "
+msgstr ""
+
+#: src/preferences.c:818
+msgid "Blue Theme"
+msgstr ""
+
+#: src/preferences.c:819
+msgid "Red Theme"
+msgstr ""
+
+#: src/preferences.c:820
+msgid "Dark Red Theme"
+msgstr ""
+
+#: src/preferences.c:821
+msgid "Green Theme"
+msgstr ""
+
+#: src/preferences.c:822
+msgid "White Theme"
+msgstr ""
+
+#: src/preferences.c:823
+msgid "Default Gtk+ Theme"
+msgstr ""
+
+#: src/preferences.c:833
+msgid "<b>Jeex Elements</b>"
+msgstr ""
+
+#: src/preferences.c:843
+msgid "Cursor in text insert mode"
+msgstr ""
+
+#: src/preferences.c:854
+msgid "Show jeex icon in systray"
+msgstr ""
+
+#: src/preferences.c:865
+msgid "Show toolbar"
+msgstr ""
+
+#: src/preferences.c:876
+msgid "Show 0x prefix in the byte hexadecimal value"
+msgstr ""
+
+#: src/preferences.c:881
+msgid "<b>Appearance</b>"
+msgstr ""
+
+#: src/tools.c:94
+msgid "Split"
+msgstr ""
+
+#: src/tools.c:101
+msgid "Destination Folder: "
+msgstr ""
+
+#: src/tools.c:106
+msgid "Choose folder.."
+msgstr ""
+
+#: src/tools.c:110
+msgid "Destination file name: "
+msgstr ""
+
+#: src/tools.c:118
+msgid "Use default destination"
+msgstr ""
+
+#: src/tools.c:124
+msgid "Bytes in each file: "
+msgstr ""
+
+#: src/tools.c:182
+msgid ""
+"<big><b>No Output File</b></big>\n"
+"\n"
+"You must specify an output file name!"
+msgstr ""
+
+#: src/tools.c:264
+msgid "File has been split\n"
+msgstr ""
+
+#: src/tools.c:285
+msgid "Strings Extractor"
+msgstr ""
+
+#: src/tools.c:299
+msgid "Here are all the strings found in the current file.\n"
+msgstr ""
+
+#: src/tools.c:376
+#, c-format
+msgid ""
+"\n"
+"<b>Strings found</b>: <i>%d</i>\n"
+msgstr ""
+
+#: src/tools.c:460
+#, c-format
+msgid "Structure 1/%d"
+msgstr ""
+
+#: src/tools.c:646
+#, c-format
+msgid "Structure %d/%d"
+msgstr ""

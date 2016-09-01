@@ -1,0 +1,48 @@
+dnl Process this file with autoconf to produce a configure script.
+
+AC_INIT([jeex],[12.0.4],[hds619_at_gmail_dot_com],,[http://www.hds619.net])
+AM_CONFIG_HEADER(config.h)
+AM_INIT_AUTOMAKE()
+
+dnl Check for programs
+AC_PROG_CC
+AC_PROG_RANLIB
+AC_USE_SYSTEM_EXTENSIONS
+#AM_GNU_GETTEXT
+AM_GNU_GETTEXT([foreign])
+AM_GNU_GETTEXT_VERSION([0.18.1])
+
+dnl Checks for libraries.
+AC_CHECK_LIB(m, main,, AC_MSG_ERROR(lib math is needed))
+AC_CHECK_LIB(magic, magic_open,, AC_MSG_ERROR(lib magic is needed))
+
+dnl Checks for magic heaher
+AC_CHECK_HEADER(magic.h)
+
+dnl Check for GTK 2.14 or later
+AM_PATH_GTK_2_0(2.14.0,[CFLAGS="$CFLAGS $GTK_CFLAGS"],AC_MSG_ERROR(GTK+ 2.14 or later is required))
+
+dnl Check for GLIB 2.14 or later
+AM_PATH_GLIB_2_0(2.14.0,[CFLAGS="$CFLAGS $GLIB_CFLAGS"],AC_MSG_ERROR(GLIB 2.14 or later is required))
+
+#
+# Add other check
+#
+
+dnl Debug enable
+debug_flag=""
+AC_ARG_ENABLE( debug,
+[  --enable-debug                 Enable debug], debug_flag="-DDEBUG_ENABLE")
+AC_SUBST(debug_flag)
+
+dnl set regex_time_limit_off
+regex_time_limit_off_flag=""
+AC_ARG_ENABLE( regex_time_limit_off,
+[  --enable-regex_time_limit_off  Enable regex time limit off], regex_time_limit_off_flag="-Dregex_time_limit_off")
+AC_SUBST(regex_time_limit_off_flag)
+
+AC_OUTPUT(
+Makefile 
+src/Makefile 
+plugin/Makefile
+po/Makefile.in m4/Makefile)

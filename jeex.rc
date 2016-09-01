@@ -1,0 +1,61 @@
+#  ____    ____
+# |  _ \  / ___|
+# | |_) || |Jeex
+# |  _ < | |___ Style
+# |_| \_\ \____|
+
+style "wwhite"
+{
+bg[NORMAL] = "#FFFFFF"
+    bg[ACTIVE] = "#FFFFFF"
+    bg[INSENSITIVE] = "#999999"
+    bg[PRELIGHT] = "#FFFFFF"
+    fg[NORMAL] = "#333333"
+    fg[ACTIVE] = "#333333"
+    fg[INSENSITIVE] = "#000000" fg[PRELIGHT] = "#333333"}
+
+# Questo stile rende l'ambiente
+# grafico di Jeex tendente al rosso
+style "wred"
+{
+bg[NORMAL] = "#FF0000"
+    bg[ACTIVE] = "#FF0000"
+    bg[INSENSITIVE] = "#990000"
+    bg[PRELIGHT] = "#FF0000"
+    fg[NORMAL] = "#333333"
+    fg[ACTIVE] = "#333333"
+    fg[INSENSITIVE] = "#000000" fg[PRELIGHT] = "#333333"}
+
+# Questo stile rende l'ambiente
+# grafico di Jeex tendente al rosso scuro
+style "wdarkred"
+{
+bg[NORMAL] = "#990000"
+    bg[ACTIVE] = "#990000"
+    bg[INSENSITIVE] = "#000000" bg[PRELIGHT] = "#990000"}
+
+# Questo stile rende l'ambiente
+# grafico di Jeex tendente al blu
+style "wblue"
+{
+bg[NORMAL] = "#005AFF"
+    bg[ACTIVE] = "#005AFF"
+    bg[INSENSITIVE] = "#000000"
+    bg[PRELIGHT] = "#005AFF"
+    fg[NORMAL] = "#001F57" fg[INSENSITIVE] = "#000000"}
+
+# Questo stile rende l'ambiente
+# grafico di Jeex tendente al verde
+style "wgreen"
+{
+bg[NORMAL] = "#00A714"
+    bg[ACTIVE] = "#00A714"
+    bg[INSENSITIVE] = "#000000"
+    bg[PRELIGHT] = "#00A714"
+    fg[NORMAL] = "#004d09" fg[INSENSITIVE] = "#000000"}
+
+style "wdefault"
+{
+}
+
+widget "window.*" style "wdefault"

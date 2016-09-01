@@ -1,0 +1,2066 @@
+# Jeex Translation File
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Alkis Mavridis <alkismavridis@hotmail.com>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Jeex 10.0\n"
+"Report-Msgid-Bugs-To: hds619_at_gmail_dot_com\n"
+"POT-Creation-Date: 2012-12-01 16:22+0100\n"
+"PO-Revision-Date: 2012-03-08 10:58+0200\n"
+"Last-Translator: Alkis Mavridis <alkismavridis@hotmail.com>\n"
+"Language-Team: Ελληνικά, Σύγχρονα <alkismavridis@hotmail.com>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bits\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: src/bookmark.c:81
+msgid "New Bookmark"
+msgstr "Νέος σελιδοδείκτης"
+
+#: src/bookmark.c:86
+#, c-format
+msgid "New Bookmark %d"
+msgstr "Νέος σελιδοδείκτης %d"
+
+#: src/bookmark.c:131
+#, c-format
+msgid ""
+"<big><b>Unable to add bookmark</b></big>\n"
+"\n"
+"You can insert max %d bookmarks in list,\n"
+"to add another should delete some with\n"
+"\"<i>Manage Bookmarks</i>\"."
+msgstr ""
+"<big><b>Αδυναμία προσθήκης σελιδοδείκτη</b></big>\n"
+"Μπορείτε να προσθέσετε εώς %d σελιδοδείκτες στη\n"
+"λίστα, για προσθήκη ενός επιπλέον θα πρέπει να \n"
+"διαγράψετε ένα από τη «<i>Διαχείριση σελιδοδεικτών</i>»."
+
+#: src/bookmark.c:145 src/menu.c:291
+msgid "Bookmarks"
+msgstr "Σελιδοδείκτες"
+
+#: src/bookmark.c:160
+msgid "<big><b>Add a bookmark</b></big>\n"
+msgstr "<big><b>Προσθήκη σελιδοδείκτη</b></big>\n"
+
+#: src/bookmark.c:166 src/bookmark.c:549
+msgid "<b>Bookmark Name:</b>"
+msgstr "<b>Όνομα σελιδοδείκτη:</b>"
+
+#: src/bookmark.c:180 src/bookmark.c:562
+msgid "<b>Bookmark Address:</b>"
+msgstr "<b>Διεύθυνση σελιδοδείκτη:</b>"
+
+#: src/bookmark.c:199 src/bookmark.c:576
+msgid "<b>Bookmark Description:</b>"
+msgstr "<b>Περιγραφή σελιδοδείκτη:</b>"
+
+#: src/bookmark.c:260 src/bookmark.c:998
+msgid ""
+"<big><b>Unable to add bookmark</b></big>\n"
+"\n"
+"It wasn't possible to add the bookmark because\n"
+"the fields \"Name\" and/or \"Address\" were empty."
+msgstr ""
+"<big><b>Αδυναμία προσθήκης σελιδοδείκτη</b></big>\n"
+"\n"
+"Δεν ήταν δυνατή η προσθήκη σελιδοδείκτη επειδή\n"
+"τα πεδία «Όνομα» και/ή «Διεύθυνση» ήταν κενά."
+
+#: src/bookmark.c:272 src/bookmark.c:1010
+msgid ""
+"<big><b>Unable to add bookmark</b></big>\n"
+"\n"
+"The entered address is empty.\n"
+msgstr ""
+"<big><b>Αδυναμία προσθήκης σελιδοδείκτη</b></big>\n"
+"\n"
+"Η δοθείσα διεύθυνση είναι κενή.\n"
+
+#: src/bookmark.c:282 src/bookmark.c:1020
+msgid ""
+"<big><b>Unable to add bookmark</b></big>\n"
+"\n"
+"The entered address is not valid."
+msgstr ""
+"<big><b>Αδυναμία προσθήκης σελιδοδείκτη</b></big>\n"
+"\n"
+"Η δοθείσα διεύθυνση δεν είναι έγκυρη."
+
+#: src/bookmark.c:309 src/bookmark.c:1051
+msgid ""
+"<big><b>Unable to add bookmark</b></big>\n"
+"\n"
+"The name chosen for this bookmark is already used\n"
+"by another."
+msgstr ""
+"<big><b>Αδυναμία προσθήκης σελιδοδείκτη</b></big>\n"
+"\n"
+"Το επιλεγμένο όνομα για αυτό το σελιδοδείκτη \n"
+"χρησιμοποιείται ήδη από άλλον."
+
+#: src/bookmark.c:316
+msgid ""
+"Another bookmark was added with the same address.\n"
+"\n"
+"Add it?"
+msgstr ""
+"Άλλος σελιδοδείκτης προσετέθη με την ίδια διεύθυνση.\n"
+"\n"
+"Προσθήκη;"
+
+#: src/bookmark.c:405
+#, c-format
+msgid ""
+"\"%s\"\n"
+"Go to address."
+msgstr ""
+"«%s»\n"
+"Μετάβαση σε διεύθυνση."
+
+#: src/bookmark.c:410
+msgid "Go to address."
+msgstr "Μετάβαση σε διεύθυνση."
+
+#: src/bookmark.c:449
+msgid ""
+"<b><big>Unable to organize bookmarks</big></b>\n"
+"\n"
+"It wasn't possible to organize the bookmarks because\n"
+"there are no bookmarks saved.\n"
+msgstr ""
+"<b><big>Αδυναμία οργάνωσης σελιδοδεικτών</big></b>\n"
+"\n"
+"Δεν ήταν δυνατή η οργάνωση των σελιδοδεικτών επειδή\n"
+"δεν υπάρχουν σελιδοδείκτες αποθηκευμένοι.\n"
+
+#: src/bookmark.c:464 src/menu.c:267
+msgid "Manage Bookmarks"
+msgstr "Διαχείριση σελιδοδεικτών"
+
+#: src/bookmark.c:479
+msgid "<big><b>Manage Bookmarks</b></big>\n"
+msgstr "<big><b>Διαχείριση σελιδοδεικτών</b></big>\n"
+
+#: src/bookmark.c:486
+msgid "<i>Select the bookmark:</i>"
+msgstr "<i>Διαλέξτε σελιδοδείκτη:</i>"
+
+#: src/bookmark.c:684
+msgid ""
+"<big><b>Bookmark not found</b></big>\n"
+"\n"
+"Selected bookmark wasn't found, probably this is a <b>bug</b>.\n"
+"Please report at: <i>hds619@gmail.com</i>."
+msgstr ""
+"<big><b>Σελιδοδείκτης δε βρέθηκε</b></big>\n"
+"\n"
+"Ο επιλεγμένος σελιδοδείκτης δε βρέθηκε, πιθανόν αυτό είναι ένα <b>σφάλμα</"
+"b>.\n"
+"Παρακαλώ αναφέρετε στο: <i>hds619@gmail.com</i>."
+
+#: src/bookmark.c:781
+msgid ""
+"<big><b>Unable to organize bookmarks</b></big>\n"
+"\n"
+"Cannot continue to organize bookmarks because\n"
+"there are no more bookmarks."
+msgstr ""
+"<b><big>Αδυναμία οργάνωσης σελιδοδεικτών</big></b>\n"
+"\n"
+"Δεν ήταν δυνατή η συνέχεια της οργάνωσης των σελιδοδεικτών\n"
+"επειδή δεν υπάρχουν άλλοι σελιδοδείκτες."
+
+#: src/bookmark.c:1058
+msgid ""
+"Another bookmark was added with the same address.\n"
+"\n"
+"Modify it?"
+msgstr ""
+"Άλλος σελιδοδείκτης προσετέθη με την ίδια διεύθυνση.\n"
+"Τροποποίηση;"
+
+#: src/general-function.c:283
+msgid "Space"
+msgstr "Διάστημα"
+
+#: src/general-function.c:303
+msgid "Unprintable"
+msgstr "Μη εμφανίσιμο"
+
+#: src/general-function.c:384
+#, c-format
+msgid "Offset: %8.8X - Column: %d - Size: %s ( %d byte )"
+msgstr "Αρχή γραμμής: %8.8X - Στήλη: %d - μέγεθος: %s ( %d byte )"
+
+#: src/general-function.c:392
+#, c-format
+msgid "Offset: %8.8X - Column: %d"
+msgstr "Αρχή γραμμής: %8.8X - Στήλη: %d"
+
+#: src/general-function.c:414 src/view.c:678 src/view.c:689 src/main.c:251
+#: src/file.c:651
+msgid "No File Open"
+msgstr "Δεν υπάρχει ανοιχτό αρχείο"
+
+#: src/general-function.c:498
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: src/general-function.c:559
+msgid "Quit"
+msgstr "Έξοδος"
+
+#: src/general-function.c:568
+msgid ""
+"\n"
+" Are you sure to quit Jeex? \n"
+" ( Unsaved changes will be lost ) \n"
+msgstr ""
+"\n"
+" Θέλετε σίγουρα να κλείσετε το Jeex; \n"
+" ( Μη αποθηκευμένες θα χαθούν ) \n"
+
+#: src/general-function.c:602
+msgid "Show jeex window."
+msgstr "Εμφάνιση παραθύρου jeex."
+
+#: src/general-function.c:614
+msgid "Hide jeex window."
+msgstr "Απόκρυψη παραθύρου jeex."
+
+#: src/general-function.c:919
+msgid ""
+"<big><b>Invalid value</b></big>\n"
+"\n"
+"Value must be between 255 and -255.\n"
+"It is the maximum value supported by a byte."
+msgstr ""
+"<big><b>Μη έγκυρη τιμή</b></big>\n"
+"\n"
+"Η τιμή πρέπει να είναι μεταξύ 255 και -255.\n"
+"Είναι η μέγιστη τιμή που υποστηρίζεται από ένα byte."
+
+#: src/general-function.c:942
+msgid "<big><b>The entered value entered is not valid.</b></big>"
+msgstr "<big><b>Η εισαγόμενη τιμή δεν είναι έγκυρη.</b></big>"
+
+#: src/general-function.c:987
+msgid ""
+"<big><b>Invalid Value</b></big>\n"
+"\n"
+"The entered value entered includes values less\n"
+"than 0 or greater than 7, not admitted\n"
+"in octal numbers."
+msgstr ""
+"<big><b>Μη έγκυρη τιμή</b></big>\n"
+"\n"
+"Η εισαγόμενη τιμή περιέχει τιμές μικρότερες του 0\n"
+"ή μεγαλύτερες του 7, μη παραδεκτές σε οκταδικούς αριθμούς."
+
+#: src/general-function.c:999 src/general-function.c:1031
+msgid ""
+"<big><b>Invalid Value</b></big>\n"
+"\n"
+"Value must be between 255 and -255.\n"
+"It is the maximum value supported by a byte."
+msgstr ""
+"<big><b>Μη έγκυρη τιμή</b></big>\n"
+"\n"
+"Η τιμή πρέπει να είναι μεταξύ 255 και -255.\n"
+"Είναι η μέγιστη τιμή που υποστηρίζεται από ένα byte."
+
+#: src/general-function.c:1020
+msgid ""
+"<big><b>Invalid Value</b></big>\n"
+"\n"
+"Value entered includes characters other\n"
+"than 0 and 1, not admitted in binary numbers.\n"
+msgstr ""
+"<big><b>Μη έγκυρη τιμή</b></big>\n"
+"\n"
+"Η εισαγόμενη τιμή περιέχει χαρακτήρες διαφορετικούς\n"
+"του 0 και 1, μη παραδεκτούς σε δυαδικούς αριθμούς.\n"
+
+#: src/general-function.c:1066
+msgid ""
+"<big><b>Unknown Operation</b></big>\n"
+"\n"
+"Report this bug to: hds619@gmail.com"
+msgstr ""
+"<big><b>Άγνωστη διεργασία</b></big>\n"
+"\n"
+"Αναφέρετε αυτό το σφάλμα στο: hds619@gmail.com"
+
+#: src/logging.c:49
+#, fuzzy
+msgid ""
+"<big><b>Error while saving log</b></big>\n"
+"\n"
+"Unable to make the <i>.config/jeex/log</i> folder in your home.\n"
+msgstr ""
+"<big><b>Σφάλμα κατά την αποθήκευση log</b></big>\n"
+"\n"
+"Αδυναμία δημιουργίας του φακέλου <i>.jeex-log</i> στον \n"
+"προσωπικό σας φάκελο.\n"
+
+#: src/logging.c:71
+msgid ""
+"<big><b>Error while saving log</b></big>\n"
+"\n"
+"Unable to open a log file for logging your action with\n"
+"jeex. Check the permission."
+msgstr ""
+"<big><b>Σφάλμα κατά την αποθήκευση log</b></big>\n"
+"\n"
+"Αδυναμία ανοίγματος ενός αρχείου log για σύνδεση της ενέργειάς\n"
+"σας με το jeex. Ελέγξτε τις άδειες."
+
+#: src/notebook-manage.c:73
+msgid ""
+"<big><b>File has been modified</b></big>\n"
+"\n"
+"This file has been modified by another program.\n"
+"Press <b>Cancel</b> not to show this warning or\n"
+"<b>Update</b> to update the text."
+msgstr ""
+"<big><b>Το αρχείο έχει τροποποιηθεί</b></big>\n"
+"\n"
+"Αυτό το αρχείο έχει τροποποιηθεί από άλλο πρόγραμμα.\n"
+"Πιέστε  <b>Άκυρο</b> για απόκρυψη αυτής της\n"
+"προειδοποίησης ή <b>Ενημέρωση</b> για να ενημερώσετε\n"
+"το κείμενο."
+
+#: src/notebook-manage.c:102
+msgid "Text: "
+msgstr "Κείμενο"
+
+#: src/notebook-manage.c:164
+msgid "Regex: "
+msgstr "Περιεχόμενο: "
+
+#: src/notebook-manage.c:299
+msgid ""
+"<big><b>Too many tabs open!!</b></big>\n"
+"\n"
+"Jeex cannot handle more than 64 tabs at once!"
+msgstr ""
+"<big><b>Πολλές ανοιχτές καρτέλες!!</b></big>\n"
+"\n"
+"Το Jeex δεν μπορεί να χειριστεί περισσότερες από\n"
+"64 καρτέλες ταυτόχρονα!"
+
+#: src/search.c:130 src/search.c:608
+msgid ""
+"<big><b>No files open</b></big>\n"
+"\n"
+"Cannot start a search in the text.\n"
+"You must open a file first!"
+msgstr ""
+"<big><b>Δεν υπάρχουν ανοιχτά αρχεία</b></big>\n"
+"\n"
+"Αδυναμία έναρξης αναζήτησης στο κείμενο.\n"
+"Πρέπει πρώτα να ανοίξετε ένα αρχείο!"
+
+#: src/search.c:140 src/search.c:618
+msgid "Find"
+msgstr "Εύρεση"
+
+#: src/search.c:151 src/search.c:629
+msgid "Find: "
+msgstr "Εύρεση:"
+
+#: src/search.c:170 src/search.c:227
+msgid "Format: "
+msgstr "Μορφή:"
+
+#: src/search.c:208
+msgid " Replace with: "
+msgstr " Αντικατάσταση με:"
+
+#: src/search.c:265 src/search.c:685
+msgid "Start search from the beginning."
+msgstr "Εκκίνηση της αναζήτησης από την αρχή."
+
+#: src/search.c:270 src/search.c:690
+msgid "Start search from the end."
+msgstr "Εκκίνηση της αναζήτησης από το τέλος."
+
+#: src/search.c:288 src/main.c:457
+msgid "Replace"
+msgstr "Αντικατάσταση"
+
+#: src/search.c:298
+msgid "Replace All"
+msgstr "Αντικατάσταση όλων"
+
+#: src/search.c:458 src/search.c:918
+#, c-format
+msgid "String '%s' not found."
+msgstr "Το κείμενο '%s' δε βρέθηκε."
+
+#: src/search.c:567
+#, c-format
+msgid "String '%s' not found"
+msgstr "Το κείμενο '%s' δε βρέθηκε"
+
+#: src/search.c:574
+#, c-format
+msgid "Found and replaced %i occurrences."
+msgstr "Βρέθηκαν και αντικαταστάθηκαν %i περιστατικά."
+
+#: src/search.c:647
+msgid " Format: "
+msgstr " Μορφή: "
+
+#: src/search.c:980 src/menu.c:256
+msgid "Go to offset"
+msgstr "Μετάβαση σε γραμμή"
+
+#: src/search.c:991
+msgid "Offset: "
+msgstr "Μετατόπιση: "
+
+#: src/search.c:1058
+msgid "<big><b>String is empty.</b></big>"
+msgstr "<big><b>Το κείμενο είναι κενό.</b></big>"
+
+#: src/search.c:1068
+msgid "<big><b>Entered offset not valid.</b></big>"
+msgstr "<big><b>Η εισαχθείσα τοποθεσία δεν είναι έγκυρη.</b></big>"
+
+#: src/search.c:1139
+msgid "<big><b>Error while make a new regex.</b></big>"
+msgstr "<big><b>Σφάλμα κατά τη δημιουργία νέας έκφρασης.</b></big>"
+
+#: src/search.c:1155 src/search.c:1260
+msgid "<big><b>Time available exhausted</b></big>"
+msgstr "<big><b>Διαθέσιμος χρόνος εξαντλήθηκε</b></big>"
+
+#: src/search.c:1233
+msgid "<big><b>Regex not found.</b></big>"
+msgstr "<big><b>Η έκφραση δε βρέθηκε.</b></big>"
+
+#: src/view.c:82 src/menu.c:223
+msgid "Characters Table"
+msgstr "Πίνακας χαρακτήρων"
+
+#: src/view.c:97
+msgid ""
+"Here is the list of characters converted in ascii,\n"
+"binary, hexadecimal and octal.\n"
+msgstr ""
+"Αυτή είναι μία λίστα χαρακτήρων τροποποιημένους σε\n"
+"ascii, δυαδική, οκταδική και δεκαεξαδική μορφή.\n"
+
+#: src/view.c:192
+msgid "Hexadecimal"
+msgstr "Δεκαεξαδικό"
+
+#: src/view.c:193 src/view.c:336 src/view.c:483
+msgid "Decimal"
+msgstr "Δεκαδικό"
+
+#: src/view.c:194 src/view.c:335 src/view.c:482
+msgid "Octal"
+msgstr "Οκταδικό"
+
+#: src/view.c:195 src/view.c:334 src/view.c:481
+msgid "Binary"
+msgstr "Δυαδικό"
+
+#: src/view.c:196
+msgid "Text"
+msgstr "Χαρακτήρας"
+
+#: src/view.c:197
+msgid "Occurrence"
+msgstr "Εμφανίσεις"
+
+#: src/view.c:198
+msgid "Percent"
+msgstr "Ποσοστό"
+
+#: src/view.c:210 src/menu.c:204
+msgid "Document Statistics"
+msgstr "Στατιστικά εγγράφου"
+
+#: src/view.c:224
+msgid "<big><b>Document Statistics</b></big>"
+msgstr "<big><b>Στατιστικά εγγράφου</b></big>"
+
+#: src/view.c:255
+#, c-format
+msgid ""
+"<b>Document Rows:</b>\t\t%d\n"
+"<b>Document Space:</b>\t\t%d\n"
+"<b>Document Characters:</b>\t%d\n"
+msgstr ""
+"<b>Σειρές:</b>\t\t%d\n"
+"<b>Κενά:</b>\t\t%d\n"
+"<b>Χαρακτήρες:</b>\t%d\n"
+
+#: src/view.c:333 src/view.c:480
+msgid "Ascii"
+msgstr "ASCII"
+
+#: src/view.c:459
+msgid "Document in other format"
+msgstr "Έγγραφο σε άλλη μορφή"
+
+#: src/view.c:475
+msgid "<i>Choose format:</i>"
+msgstr "<i>Διαλέξτε μορφή:</i>"
+
+#: src/view.c:593
+#, c-format
+msgid "<b>%d</b>: <i>start</i> ( %8.8X ) "
+msgstr "<b>%d</b>: <i>αρχή</i> ( %8.8X ) "
+
+#: src/view.c:598
+#, c-format
+msgid "- <i>end</i> ( %8.8X )\n"
+msgstr "- <i>τέλος</i> ( %8.8X )\n"
+
+#: src/view.c:619
+msgid "Differences with other files"
+msgstr "Διαφορές από άλλα αρχεία"
+
+#: src/view.c:632
+msgid "<big><b>Differences with other files</b></big>\n"
+msgstr "<big><b>Διαφορές από άλλα αρχεία</b></big>\n"
+
+#: src/view.c:654
+msgid "<b>File name to compare:</b>"
+msgstr "<b>Όνομα αρχείου προς σύγκριση:</b>"
+
+#: src/view.c:659
+msgid "Choose a compare file..."
+msgstr "Διαλέξτε αρχείο προς σύγκριση..."
+
+#: src/view.c:675
+msgid "Shared parts:"
+msgstr "Κοινά τμήματα:"
+
+#: src/view.c:736
+msgid "Hash View"
+msgstr "Προβολή αποτυπώματος"
+
+#: src/view.c:753
+msgid "Hash content"
+msgstr "Περιεχόμενο αποτυπώματος"
+
+#: src/view.c:801
+#, c-format
+msgid "View - %s ( %s )"
+msgstr "Προβολή - %s ( %s )"
+
+#: src/view.c:806
+msgid "View - New File"
+msgstr "Προβολή - Νέο αρχείο"
+
+#: src/edit.c:61
+#, c-format
+msgid "Updating file `%s'\n"
+msgstr "Ενημέρωση αρχείου `%s'\n"
+
+#: src/edit.c:75 src/file.c:950
+msgid ""
+"<big><b>Unable to open file</b></big>\n"
+"\n"
+"The file you are trying to open is a directory."
+msgstr ""
+"<big><b> Αδύνατο το άνοιγμα αρχείου</b></big>\n"
+"\n"
+"Το αρχείο που προσπαθείτε να ανοίξετε είναι κατάλογος."
+
+#: src/edit.c:85
+#, c-format
+msgid ""
+"<big><b>File too large!</b></big>\n"
+"\n"
+"File size higher than <i>%s</i>."
+msgstr ""
+"<big><b>Αρχείο πολύ μεγάλο!</b></big>\n"
+"\n"
+"Μέγεθος αρχείου μεγαλύτερο από <i>%s</i>."
+
+#: src/edit.c:205
+msgid "Operations with bits"
+msgstr "Διεργασίες με bit"
+
+#: src/edit.c:217
+msgid "<big><b>Operations with bits</b></big>"
+msgstr "<big><b>Διεργασίες με bit</b></big>"
+
+#: src/edit.c:232
+msgid "<b>First Byte Value</b>"
+msgstr "<b>Τιμή πρώτου Byte</b>"
+
+#: src/edit.c:263
+msgid "<b>Last Byte Value</b>"
+msgstr "<b>Τιμή τελευταίου Byte</b>"
+
+#: src/edit.c:284
+msgid "<b>Result</b>"
+msgstr "<b>Αποτέλεσμα</b>"
+
+#: src/edit.c:299
+msgid "<b>First Byte's bits</b>"
+msgstr "<b>Ψηφία πρώτου Byte</b>"
+
+#: src/edit.c:321
+msgid "<b>Last Byte's bits</b>"
+msgstr "<b>Ψηφία τελευταίου Byte</b>"
+
+#: src/html-export.c:107
+msgid "Html Export"
+msgstr "Έξοδος Html"
+
+#: src/html-export.c:116
+msgid ""
+"<big><b>HTML Export</b></big>\n"
+"<i>Dialog to setting the preferences</i>"
+msgstr ""
+"<big><b>Έξοδος HTML</b></big>\n"
+"<i>Διάλογος για ρύθμιση προτιμήσεων</i>"
+
+#: src/html-export.c:128
+msgid "<b>Output Folder:</b>"
+msgstr "<b>Φάκελος εξόδου:</b>"
+
+#: src/html-export.c:132
+msgid "Choose File..."
+msgstr "Διαλέξτε αρχείο…"
+
+#: src/html-export.c:136
+msgid "<b>Name:</b>"
+msgstr "<b>Όνομα:</b>"
+
+#: src/html-export.c:147
+msgid "<big><b>Page Style</b></big>\n"
+msgstr "<big><b>Στυλ σελίδας</b></big>\n"
+
+#: src/html-export.c:155
+msgid "<b>Rows for page:</b>\t\t\t\t"
+msgstr "<b>Σειρές ανά σελίδα:</b>\t\t\t\t"
+
+#: src/html-export.c:167
+msgid "<b>Font Size:</b>\t\t\t\t\t"
+msgstr "<b>Μέγεθος γραμματοσειράς:<b>\t\t\t\t\t"
+
+#: src/html-export.c:175 src/html-export.c:207
+msgid " <i>pixel</i>"
+msgstr " <i>εικονοστοιχείο</i>"
+
+#: src/html-export.c:183
+msgid "<b>Show extended ascii characters:</b>\t"
+msgstr "<b>Προβολή εκτεταμένων χαρακτήρων ascii:</b>\t"
+
+#: src/html-export.c:187
+msgid "Disable"
+msgstr "Απενεργοποίηση"
+
+#: src/html-export.c:188
+msgid "Enable"
+msgstr "Ενεργοποίηση"
+
+#: src/html-export.c:199
+msgid "<b>Border width:</b>\t\t\t\t\t"
+msgstr "<b>Πλάτος περιγράμματος:</b>\t\t\t\t\t"
+
+#: src/html-export.c:215
+msgid "<b>Border style:</b>\t\t\t\t\t"
+msgstr "<b>Στυλ περιγράμματος:</b>\t\t\t\t\t"
+
+#: src/html-export.c:239
+msgid "<b>Font color:</b>\t\t\t\t\t"
+msgstr "<b>Χρώμα γραμματοσειράς:</b>\t\t\t\t\t"
+
+#: src/html-export.c:261
+msgid "<b>Border color:</b>\t\t\t\t\t"
+msgstr "<b>Χρώμα περιγράμματος:</b>\t\t\t\t\t"
+
+#: src/html-export.c:315
+msgid "<big><b>Output Filename is empty!</b></big>\n"
+msgstr "<big><b>Το όνομα του εξαγόμενου αρχείου είναι κενό!</b></big>\n"
+
+#: src/html-export.c:356
+msgid ""
+"If you press OK, after this message,\n"
+"jeex maked more 500 files!\n"
+"\n"
+"Continue?"
+msgstr ""
+"Αν επιλέξετε OK, μετά από αυτό το μήνυμα,\n"
+"το jeex θα δημιουργήσει περισσότερα από 500 αρχεία!\n"
+"\n"
+"Συνέχεια;"
+
+#: src/html-export.c:360 src/html-export.c:366
+#, c-format
+msgid "Exported `%s' to HTML `%s'\n"
+msgstr "Εξήχθη `%s' στο HTML `%s'\n"
+
+#: src/html-export.c:430
+msgid "Hexadecimal Dump of"
+msgstr "Δεκαεξαδική μορφή του"
+
+#: src/html-export.c:549
+msgid "Page"
+msgstr "Σελίδα"
+
+#: src/html-export.c:616
+msgid "Previous Page"
+msgstr "Προηγούμενη σελίδα"
+
+#: src/html-export.c:627
+msgid "Next Page"
+msgstr "Επόμενη σελίδα"
+
+#: src/html-export.c:634
+msgid "%d/%m/%Y %X"
+msgstr "%d/%m/%Y %X"
+
+#: src/html-export.c:637
+msgid "Generate Date:"
+msgstr "Ημερομηνία δημιουργίας:"
+
+#: src/main.c:97
+msgid ""
+"Usage:\n"
+"  jeex [OPTION...] [FILE 1] [FILE 2] [...] [FILE 64]\n"
+"\n"
+"Help Options:\n"
+"  -h, --help\n"
+"\tShows this help.\n"
+"  -g, --help-gtk\n"
+"\tShows the Gtk+ Options.\n"
+"\n"
+"Jeex Options:\n"
+"  -v, --version\n"
+"\tShows the Jeex version.\n"
+"  -b [FILE], --show-bytes [FILE]\n"
+"\tShows the file's bytes.\n"
+"  -s [FILE:type1,type2,...], --show-struct [FILE:type1,type2,...]\n"
+"\tShows the file's portion.\n"
+"  -p [FILE:start_byte,end_byte], --show-portion [FILE:start_byte,end_byte]\n"
+"\tShows the file's data in structures with types specified.\n"
+"\n"
+msgstr ""
+"Χρήση:\n"
+"  jeex [ΕΠΙΛΟΓΕΣ...] [ΑΡΧΕΙΟ 1] [ΑΡΧΕΙΟ 2] [...] [ΑΡΧΕΙΟ 64]\n"
+"\n"
+"Επιλογές βοήθειας:\n"
+"  -h, --help\n"
+"\tΕμφανίζει αυτή τη βοήθεια.\n"
+"  -g, --help-gtk\n"
+"\tΕμφανίζει τις επιλογές Gtk+.\n"
+"\n"
+"Επιλογές Jeex:\n"
+"  -v, --version\n"
+"\tΕμφανίζει την έκδοση του Jeex.\n"
+"  -b [ΑΡΧΕΙΟ], --show-bytes [ΑΡΧΕΙΟ]\n"
+"\tΕμφανίζει τα byte του αρχείου.\n"
+"  -s [ΑΡΧΕΙΟ:τύπος1,τύπος2,...], --show-struct [ΑΡΧΕΙΟ:τύπος1,τύπος2,...]\n"
+"\tΕμφανίζει τα δεδομένα του αρχείου σε δομές με συγκεκριμένους τύπους.\n"
+"  -p [ΑΡΧΕΙΟ:αρχικό_byte,τελικό_byte], --show-portion [ΑΡΧΕΙΟ:αρχικό_byte,"
+"τελικό_byte]\n"
+"\tΕμφανίζει μέρος του αρχείου \n"
+"\n"
+
+#: src/main.c:117
+msgid ""
+"Usage:\n"
+"  jeex [OPTION...] [FILE 1] [FILE 2] [...] [FILE 64]\n"
+"\n"
+"Gtk+ Options:\n"
+"\n"
+"  --class=CLASS         Program class as used by the window manager\n"
+"  --name=NAME           Program name as used by the window manager\n"
+"  --display=DISPLAY     X display to use\n"
+"  --screen=SCREEN       X screen to use\n"
+"  --sync                Make X calls synchronous\n"
+"  --gtk-module=MODULES  Load additional GTK+ modules\n"
+"  --g-fatal-warnings    Make all warnings fatal\n"
+"  --gdk-debug=FLAGS     Gdk debugging flags to set\n"
+"  --gdk-no-debug=FLAGS  Gdk debugging flags to unset\n"
+"  --no-xshm             Don't use X shared memory extesion\n"
+"  --gxid_host=HOST\n"
+"  --gxid_port=PORT\n"
+"  --xim-preedit=STYLE\n"
+"  --xim-status=STYLE\n"
+"  --gtk-debug=FLAGS     Gtk+ debugging flags to set\n"
+"  --gtk-no-debug=FLAGS  Gtk+ debugging flags to unset\n"
+"\n"
+msgstr ""
+"Χρήση:\n"
+"  jeex [ΕΠΙΛΟΓΕΣ...] [ΑΡΧΕΙΟ 1] [ΑΡΧΕΙΟ 2] [...] [ΑΡΧΕΙΟ 64]\n"
+"\n"
+"Επιλογές Gtk+:\n"
+"\n"
+"  --class=ΚΛΑΣΗ         Κλάση προγράμματος όπως χρησιμοποιείται από τον "
+"window manager\n"
+"  --name=ΟΝΟΜΑ           Όνομα προγράμματος όπως χρησιμοποιείται από τον "
+"window manager\n"
+"  --display=ΕΜΦΑΝΙΣΗ     χρησιμοποίηση της X εμφάνισης\n"
+"  --screen=ΟΘΟΝΗ       χρησιμοποίηση της X οθόνης\n"
+"  --sync                Κάνει τις κλήσεις του X συγχρονισμένες \n"
+"  --gtk-module=MODULES   Φορτώνει επιπλέον μονάδες GTK+\n"
+"  --g-fatal-warnings    Κάνει όλες τις προειδοποιήσεις μοιραίες\n"
+"  --gdk-debug=FLAGS     Θέτει κάποια Gdk debugging flag\n"
+"  --gdk-no-debug=FLAGS  Ακυρώνει τις Gdk debugging flags\n"
+"  --no-xshm             Μην χρησιμοποιήσεις την επέκταση X shared memory\n"
+"  --gxid_host=HOST\n"
+"  --gxid_port=PORT\n"
+"  --xim-preedit=STYLE\n"
+"  --xim-status=STYLE\n"
+"  --gtk-debug=FLAGS     Θέτει κάποια Gtk+ debugging flag\n"
+"  --gtk-no-debug=FLAGS  Ακυρώνει τις Gtk+ debugging flags\n"
+"\n"
+
+#: src/main.c:179
+msgid ""
+"Allows you to show or hide the jeex\n"
+"main window."
+msgstr ""
+"Επιτρέπει την εμφάνιση ή απόκρυψη του κυρίως\n"
+"παραθύρου του jeex."
+
+#: src/main.c:248
+msgid "Start jeex session! :)\n"
+msgstr "Εκκίνηση συνεδρίας jeex! :)\n"
+
+#: src/main.c:353
+msgid "End jeex session! :(\n"
+msgstr "Τερματισμός συνεδρίας jeex! :(\n"
+
+#: src/main.c:377
+msgid "Create a new file"
+msgstr "Δημιουργία νέου αρχείου"
+
+#: src/main.c:386 src/menu.c:82
+msgid "Open a file"
+msgstr "Άνοιγμα αρχείου"
+
+#: src/main.c:395 src/menu.c:96
+msgid "Save the current file"
+msgstr "Αποθήκευση τρέχοντος αρχείου"
+
+#: src/main.c:411 src/main.c:421 src/main.c:431
+msgid "Update the current file"
+msgstr "Ενημέρωση τρέχοντος αρχείου"
+
+#: src/main.c:447
+msgid "Search more bytes in the current file"
+msgstr "Αναζήτηση περισσότερων byte σε αυτό το αρχείο"
+
+#: src/main.c:459
+msgid "Search and Replace more bytes in the current file"
+msgstr "Αναζήτηση και αντικατάσταση περισσότερων byte σε αυτό το αρχείο"
+
+#: src/main.c:474
+msgid " <i>Signed 8 bit:</i> "
+msgstr " <i>Προσημασμένο 8 bit:</i> "
+
+#: src/main.c:485
+msgid " <i>Unsigned 8 bit:</i> "
+msgstr " <i>Μη προσημασμένο 8 bit:</i> "
+
+#: src/main.c:497
+msgid " <i>Ascii:</i> "
+msgstr " <i>Ascii:</i> "
+
+#: src/main.c:508
+msgid " <i>Binary:</i> "
+msgstr " <i>Δυαδικό:</i> "
+
+#: src/main.c:520
+msgid " <i>Octal:</i> "
+msgstr " <i>Οκταδικό:</i> "
+
+#: src/main.c:531
+msgid " <i>Hexadecimal:</i> "
+msgstr " <i>Δεκαεξαδικό:</i> "
+
+#: src/main.c:562
+msgid "<b>Structure's types:</b>"
+msgstr "<b>Είδος δομής:</b>"
+
+#: src/main.c:571
+#, fuzzy
+msgid "Example: int,double(repeat_n),char,int"
+msgstr "Παράδειγμα: int,double,char,int"
+
+#: src/main.c:588
+msgid "<b><span color=\"#990000\">Values <u>NOT</u> valid.</span></b>"
+msgstr "<b><span color=\"#990000\"><u>ΜΗ</u> έγκυρες τιμές.</span></b>"
+
+#: src/main.c:641
+msgid "Structure 1/1"
+msgstr "Δομή 1/1"
+
+#: src/terminal-actions.c:48 src/terminal-actions.c:104
+#: src/terminal-actions.c:412
+msgid "Cannot open stream.\n"
+msgstr "Αδυναμία ανοίγματος ροής.\n"
+
+#: src/terminal-actions.c:51
+msgid "Reading Bytes...\n"
+msgstr "Ανάγνωση Bytes...\n"
+
+#: src/terminal-actions.c:58
+msgid ""
+"Formatting Bytes...\n"
+"\n"
+msgstr "Εγγραφή Bytes...\n"
+
+#: src/terminal-actions.c:75 src/terminal-actions.c:449
+msgid "Generated with"
+msgstr "Δημιουργήθηκε με"
+
+#: src/terminal-actions.c:146
+msgid "Not Valid Structure.\n"
+msgstr "Μη έγκυρη δομή.\n"
+
+#: src/terminal-actions.c:176 src/terminal-actions.c:392
+msgid "Not valid argument.\n"
+msgstr "Μη έγκυρο όρισμα.\n"
+
+#: src/terminal-actions.c:215
+#, c-format
+msgid ""
+"Unsupported Type \"%s\".\n"
+"Usable types: "
+msgstr ""
+"Ο τύπος «%s» δεν υποστηρίζεται.\n"
+"Χρησιμοποιούμενοι τύποι: "
+
+#: src/terminal-actions.c:400
+#, c-format
+msgid "Start byte (%d) > End byte (%d)\n"
+msgstr "Αρχικό byte (%d) > Τελικό byte (%d)\n"
+
+#: src/terminal-actions.c:406
+#, c-format
+msgid "Start byte (%d) == End byte (%d)\n"
+msgstr "Αρχικό byte (%d) == Τελικό byte (%d)\n"
+
+#: src/terminal-actions.c:421
+#, c-format
+msgid "End byte (%d) > Length File (%d)\n"
+msgstr "Τελικό byte (%d) > Μήκος Αρχείου (%d)\n"
+
+#: src/file.c:292
+msgid ""
+"<big><b>Error while opening the file</b></big>\n"
+"\n"
+msgstr ""
+"<big><b>Σφάλμα κατά το άνοιγμα του αρχείου</b></big>\n"
+"\n"
+
+#: src/file.c:298
+msgid ""
+"File cannot be read because you don't have\n"
+"sufficient rights."
+msgstr ""
+"Το αρχείο δεν μπορεί να διαβαστεί επειδή δεν έχετε\n"
+"αρκετά δικαιώματα."
+
+#: src/file.c:303
+msgid "File cannot be open because it wasn't found."
+msgstr "Το αρχείο δε μπορεί να ανοιχτεί επειδή δε βρέθηκε."
+
+#: src/file.c:307
+msgid ""
+"File cannot be read because the name is too\n"
+"long. Usually max length is 255."
+msgstr ""
+"Το αρχείο δε μπορεί να διαβαστεί επειδή είναι\n"
+"πολύ μεγάλο. Συνήθως το μέγιστο μήκος είναι 255."
+
+#: src/file.c:312
+msgid ""
+"File cannot be open because is used by other\n"
+"operations or processes."
+msgstr ""
+"Το αρχείο δε μπορεί να ανοιχθεί επειδή χρησιμοποιείται\n"
+"από άλλες διεργασίες."
+
+#: src/file.c:317
+msgid ""
+"The file you're trying to open is a symbolic\n"
+"link to another symbolic link.\n"
+"This then creates an endless cycle of\n"
+"links and makes it impossible to determine\n"
+"the final file to be opened."
+msgstr ""
+"Το αρχείο που προσπαθείτε να ανοίξετε είναι ένας\n"
+"συμβολικός σύνδεσμος σε άλλο συμβολικό σύνδεσμο.\n"
+"Αυτό δημιουργεί ένα ατελείωτο κύκλο από συνδέσμους\n"
+"και καθιστά αδύνατο τον καθορισμό του τελικού\n"
+"αρχείου που πρέπει να ανοιχτεί."
+
+#: src/file.c:326 src/file.c:358
+msgid ""
+"<b><big>Space in memory exhausted!</big></b>\n"
+"\n"
+"Space in virtual memory is exhausted, this makes\n"
+"it impossible to load the file into RAM."
+msgstr ""
+"<b><big>Ο χώρος στη μνήμη εξαντλήθηκε!</big></b>\n"
+"\n"
+"Ο χώρος στην εικονική μνήμη εξαντλήθηκε, αυτό καθιστά\n"
+"αδύνατο να φορτωθεί το αρχείο στη RAM."
+
+#: src/file.c:333
+msgid ""
+"File cannot be read because a I/O error has occurred.\n"
+"Check that the device you are trying to read from\n"
+"isn't damaged."
+msgstr ""
+"Το αρχείο δεν μπορεί να διαβαστεί επειδή ένα I/O σφάλμα\n"
+"συνέβη. Βεβαιωθείτε ότι η συσκευή απ' την οποία προσπαθείτε\n"
+"να διαβάσετε δεν έχει ζημιά."
+
+#: src/file.c:338
+msgid "An unknown error has occurred while opening the file."
+msgstr "Άγνωστο σφάλμα συνέβη κατά το άνοιγμα του αρχείου."
+
+#: src/file.c:343
+msgid ""
+"<big><b>Error while saving the file</b></big>\n"
+"\n"
+msgstr ""
+"<big><b>Σφάλμα κατά την αποθήκευση του αρχείου</b></big>\n"
+"\n"
+
+#: src/file.c:348
+msgid ""
+"File cannot be saved because you don't have\n"
+"sufficient rights."
+msgstr ""
+"Το αρχείο δε μπόρεσε να αποθηκευθεί γιατί δεν έχετε\n"
+"επαρκή δικαιώματα."
+
+#: src/file.c:352
+msgid ""
+"File cannot be saved because the name is too\n"
+"long. Usually max length is 255."
+msgstr ""
+"Το αρχείο δε μπορεί να αποθηκευτεί επειδή είναι\n"
+"πολύ μεγάλο. Συνήθως το μέγιστο μήκος είναι 255."
+
+#: src/file.c:365
+msgid ""
+"File cannot be saved because a I/O error has occurred.\n"
+"Checks that the device you are trying to save from\n"
+"isn't damaged."
+msgstr ""
+"Το αρχείο δεν μπορεί να αποθηκευτεί επειδή ένα I/O σφάλμα\n"
+"συνέβη. Βεβαιωθείτε ότι η συσκευή απ' την οποία προσπαθείτε\n"
+"να διαβάσετε δεν έχει ζημιά."
+
+#: src/file.c:370
+msgid "An unknown error has occurred while saving the file."
+msgstr "Άγνωστο σφάλμα συνέβη κατά την αποθήκευση του αρχείου."
+
+#: src/file.c:376
+msgid ""
+"<big><b>Unknown Error</b></big>\n"
+"\n"
+"It wasn't possible to identify the error\n"
+"occurred while opening the file.\n"
+"\n"
+"Report this bug to: <i>hds619@gmail.com</i>"
+msgstr ""
+"<big><b>Άγνωστο σφάλμα</b></big>\n"
+"\n"
+"Δεν ήταν δυνατός ο προσδιορισμός του σφάλματος.\n"
+"που συνέβη κατά το άνοιγμα του αρχείου.\n"
+"\n"
+"Αναφέρετε αυτό το σφάλμα στο: <i>hds619@gmail.com</i>"
+
+#: src/file.c:487 src/file.c:491
+msgid "%a %m %b %Y %H:%M:%S"
+msgstr "%a %m %b %Y %H:%M:%S"
+
+#: src/file.c:499
+#, fuzzy, c-format
+msgid ""
+" <span font_weight=\"bold\">Mime Type:</span> %s \n"
+" <span font_weight=\"bold\">Last access:</span> %s\n"
+" <span font_weight=\"bold\">Last modify:</span> %s\n"
+" <span font_weight=\"bold\">Permissions:</span> <span style=\"italic\">%s</"
+"span>"
+msgstr ""
+" <span font_weight=\"bold\">Είδος:</span> %s \n"
+" <span font_weight=\"bold\">Τελευταία προσπέλαση:</span> %s\n"
+" <span font_weight=\"bold\">Τελευταία τροποποίηση:</span> %s\n"
+" <span font_weight=\"bold\">Άδειες:</span> <span style=\"italic\">%s</span>"
+
+#: src/file.c:526
+#, c-format
+msgid ""
+"  <span font_weight=\"bold\">File Size: </span>  <span style=\"italic\">%s</"
+"span>  ( <i>%d</i> byte )\n"
+"  <span font_weight=\"bold\">File Path: </span>  <span style=\"italic\">N/D</"
+"span>\n"
+"  <span font_weight=\"bold\">File Name: </span>  <span style=\"italic\">N/D</"
+"span>\n"
+msgstr ""
+"  <span font_weight=\"bold\">Μέγεθος αρχείου: </span>  <span style=\"italic"
+"\">%s</span>  ( <i>%d</i> byte )\n"
+"  <span font_weight=\"bold\">Διεύθυνση αρχείου: </span>  <span style=\"italic"
+"\">N/D</span>\n"
+"  <span font_weight=\"bold\">Όνομα αρχείου: </span>  <span style=\"italic"
+"\">N/D</span>\n"
+
+#: src/file.c:559
+#, c-format
+msgid ""
+" <span font_weight=\"bold\">File Size: </span> <span style=\"italic\">%s</"
+"span>  ( <span style=\"italic\">%d</span> byte )\n"
+" <span font_weight=\"bold\">File Path: </span><span style=\"italic\">%s</"
+"span>\n"
+" <span font_weight=\"bold\">File Name: </span><span style=\"italic\">%s</"
+"span>\n"
+"\n"
+"%s\n"
+msgstr ""
+" <span font_weight=\"bold\">Μέγεθος αρχείου: </span> <span style=\"italic\">"
+"%s</span>  ( <span style=\"italic\">%d</span> byte )\n"
+" <span font_weight=\"bold\">Διεύθυνση αρχείου: </span><span style=\"italic\">"
+"%s</span>\n"
+" <span font_weight=\"bold\">Όνομα αρχείου: </span><span style=\"italic\">%s</"
+"span>\n"
+"\n"
+"%s\n"
+
+#: src/file.c:708
+#, c-format
+msgid "Closed file `%s'\n"
+msgstr "Αρχείο `%s' έκλεισε\n"
+
+#: src/file.c:905
+#, c-format
+msgid "Opened file `%s'\n"
+msgstr "Αρχείο `%s' άνοιξε\n"
+
+#: src/file.c:987
+#, c-format
+msgid ""
+"<big><b>File too big!</b></big>\n"
+"\n"
+"The file size exceeds <i>%s</i>."
+msgstr ""
+"<big><b>Αρχείο πολύ μεγάλο!</b></big>\n"
+"\n"
+"Μέγεθος αρχείου υπερβαίνει τα <i>%s</i>."
+
+#: src/file.c:991
+msgid "File opened is too big!\n"
+msgstr "Ανοιγμένο αρχείο πολύ μεγάλο!\n"
+
+#: src/file.c:1026
+#, c-format
+msgid ""
+"<big><b>File too big!</b></big>\n"
+"\n"
+"The file is too big for the system!\n"
+"You have only <b>%s</b> of RAM."
+msgstr ""
+"<big><b>Αρχείο πολύ μεγάλο!</b></big>\n"
+"\n"
+"Το αρχείο είναι πολύ μεγάλο για το σύστημα!\n"
+"Έχετε μόνο <b>%s</b> RAM."
+
+#: src/file.c:1031
+msgid "File opened is too big for the system!\n"
+msgstr "Το αρχείο είναι πολύ μεγάλο για το σύστημα!\n"
+
+#: src/file.c:1180 src/file.c:1235
+msgid "Open File..."
+msgstr "Άνοιγμα αρχείου..."
+
+#: src/file.c:1321
+msgid "Select Folder..."
+msgstr "Διαλέξτε φάκελο..."
+
+#: src/file.c:1348
+#, c-format
+msgid "Opened position `%s'\n"
+msgstr "Η τοποθεσία `%s' ανοίχτηκε\n"
+
+#: src/file.c:1351
+msgid "Cannot open input folder."
+msgstr "Ο εισαγόμενος φάκελος δε μπορεί να ανοιχτεί."
+
+#: src/file.c:1417
+#, c-format
+msgid "Saving backup copy of `%s'..\n"
+msgstr "Αποθήκευση αντιγράφου ασφαλείας του `%s'..\n"
+
+#: src/file.c:1420
+msgid "<big><b>Error to making a backup copy</b></big>"
+msgstr "<big><b>Σφάλμα κατά τη δημιουργία αντιγράφου ασφαλείας</b></big>"
+
+#: src/file.c:1427
+msgid "Backup copy not created. An unknow error has occurred.\n"
+msgstr ""
+"Το αντίγραφο ασφαλείας δε δημιουργήθηκε.\n"
+"Ένα άγνωστο σφάλμα συνέβη.\n"
+
+#: src/file.c:1430
+msgid "Backup copy created. No error has occurred.\n"
+msgstr ""
+"Αντίγραφο ασφαλείας δημιουργήθηκε.\n"
+"Δεν υπήρξε σφάλμα.\n"
+
+#: src/file.c:1435
+#, c-format
+msgid "Saving file `%s'..\n"
+msgstr "Αποθήκευση αρχείου `%s'..\n"
+
+#: src/file.c:1439
+#, c-format
+msgid "Error has occurred while saving the file `%s'\n"
+msgstr "Ένα σφάλμα συνέβη κατά την αποθήκευση του αρχείου `%s'\n"
+
+#: src/file.c:1521
+#, c-format
+msgid "File `%s' has been saved.\n"
+msgstr ""
+"Το αρχείο `%s' αποθηκεύτηκε\n"
+"υτηκε.\n"
+
+#: src/file.c:1566 src/file.c:1705
+msgid "Generic File"
+msgstr "Γενικό αρχείο"
+
+#: src/file.c:1567
+msgid "Jeex File: Ascii ( *.jascii )"
+msgstr "Αρχείο Jeex: Ascii ( *.jascii )"
+
+#: src/file.c:1568
+msgid "Jeex File: Octal ( *.joct )"
+msgstr "Αρχείο Jeex: Οκταδικό ( *.joct )"
+
+#: src/file.c:1569
+msgid "Jeex File: Hexadecimal ( *.jhex )"
+msgstr "Αρχείο Jeex: Δεκαεξαδικό ( *.jhex )"
+
+#: src/file.c:1570
+msgid "Jeex File: Decimal ( *.jdec )"
+msgstr "Αρχείο Jeex: Δεκαδικό ( *.jdec )"
+
+#: src/file.c:1570
+msgid "Jeex File: Binary ( *.jbin )"
+msgstr "Αρχείο Jeex: Δυαδικό ( *.jbin )"
+
+#: src/file.c:1588
+msgid "Untitle File"
+msgstr "Αρχείο χωρίς τίτλο"
+
+#: src/file.c:1706
+msgid "Jeex Ascii File"
+msgstr "Ascii αρχείο Jeex"
+
+#: src/file.c:1707
+msgid "Jeex Octal File"
+msgstr "Οκταδικό αρχείο Jeex"
+
+#: src/file.c:1708
+msgid "Jeex Hexadecimal File"
+msgstr "Δεκαεξαδικό αρχείο Jeex"
+
+#: src/file.c:1708
+msgid "Jeex Decimal File"
+msgstr "Δεκαδικό αρχείο Jeex"
+
+#: src/file.c:1708
+msgid "Jeex Binary File"
+msgstr "Δυαδικό αρχείο Jeex"
+
+#: src/file.c:1710
+msgid "Select File Type ( By Extension )"
+msgstr "Διαλέξτε είδος αρχείου( Από κατάληξη)"
+
+#: src/file.c:1719
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: src/file.c:1724
+msgid "Extension"
+msgstr "Κατάληξη"
+
+#: src/file.c:1772
+msgid ""
+"<big><b>Unable to save the file</b></big>.\n"
+"\n"
+"No files were opened."
+msgstr ""
+"<big><b>Αδύνατη η αποθήκευση αρχείου</b></big>.\n"
+"\n"
+"Δεν υπήρχαν ανοιχτά αρχεία."
+
+#: src/file.c:1777
+msgid "Save File As.."
+msgstr "Αποθήκευση αρχείου ως.."
+
+#: src/file.c:1849
+msgid ""
+"<big><b>Cannot restart Jeex</b></big>\n"
+"\n"
+"Link not found."
+msgstr ""
+"<big><b>Αδύνατη η επανεκκίνηση του Jeex</b></big>\n"
+"\n"
+"Ο σύνδεσμος δε βρέθηκε."
+
+#: src/file.c:1853
+msgid "Restarted jeex..\n"
+msgstr "Έγινε η επανεκκίνηση του Jeex..\n"
+
+#: src/file.c:1866
+msgid "Are you sure you want to delete the currently open file?"
+msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε το τρέχον ανοιχτό αρχείο;"
+
+#: src/file.c:1868
+msgid "File wasn't deleted."
+msgstr "Το αρχείο δε διεγράφη."
+
+#: src/file.c:1874
+msgid "Cannot delete the file."
+msgstr "Αδυναμία διαγραφής αρχείου."
+
+#: src/file.c:1878
+#, c-format
+msgid "Removed file `%s'\n"
+msgstr "Αφαιρέθηκε το αρχείο `%s'\n"
+
+#: src/file.c:1880
+msgid "File has been deleted."
+msgstr "Το αρχείο διεγράφη."
+
+#: src/file.c:1896
+msgid "Created a new file.\n"
+msgstr "Νέο αρχείο δημιουργήθηκε.\n"
+
+#: src/file.c:1899 src/file.c:1905
+msgid "New File"
+msgstr "Νέο αρχείο"
+
+#: src/file.c:1991
+msgid "Properties"
+msgstr "Ιδιότητες"
+
+#: src/file.c:2003
+msgid "<big><b>Properties</b></big>"
+msgstr "<big><b>Ιδιότητες</b></big>"
+
+#: src/file.c:2008
+#, fuzzy
+msgid "Information"
+msgstr "Πληροφορίες"
+
+#: src/info.c:58
+#, c-format
+msgid "Open the jeex project homepage with %s browser.\n"
+msgstr "Άνοιγμα της ιστοσελίδας του jeex project με %s browser.\n"
+
+#: src/info.c:103
+msgid ""
+"\n"
+" Jeex is free software; you can redistribute it and/or modify\n"
+" it under the terms of the GNU General Public License as published\n"
+" by the Free Software Foundation; either version 3 of the License,\n"
+" or (at your option) any later version.\n"
+"\n"
+msgstr ""
+"\n"
+" Το Jeex είναι ελεύθερο λογισμικό, μπορείτε να το αναδιανέμετε και/ή να το "
+"τροποποιήσετε \n"
+" κάτω απ' τους όρους της GNU General Public License όπως δημοσιεύθηκε\n"
+" από την Free Software Foundation, ή την έκδοση 3 της άδειας,\n"
+" ή (κατά τη γνώμη σας) οποιαδήποτε μεταγενέστερη έκδοση.\n"
+"\n"
+
+#: src/info.c:109
+msgid ""
+" Jeex is distributed in the hope that it will be useful,\n"
+" but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+" GNU General Public License for more details.\n"
+"\n"
+msgstr ""
+" Το Jeex διανέμεται με την ελπίδα ότι θα είναι χρήσιμο,\n"
+"αλλά ΧΩΡΙΣ ΚΑΜΙΑ ΕΓΓΥΗΣΗ, και χωρίς την έμμεση εγγύηση της\n"
+"ΕΜΠΟΡΕΥΣΙΜΟΤΗΤΑΣ ή ΚΑΤΑΛΛΗΛΟΤΗΤΑΣ ΓΙΑ ΚΑΠΟΙΟ ΣΥΓΚΕΚΡΙΜΕΝΟ ΣΚΟΠΟ.  Δείτε την\n"
+"GNU General Public License για περισσότερες πληροφορίες.\n"
+"\n"
+
+#: src/info.c:114
+msgid ""
+" You should have received a copy of the GNU General Public License\n"
+" along with this program; if not, write to the Free Software \n"
+" Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,\n"
+" MA 02110-1301, USA."
+msgstr ""
+" Θα πρέπει να έχετε λάβει ένα αντίγραφο της GNU General Public License\n"
+" με αυτό το πρόγραμμα, αν όχι, γράψτε στην Free Software \n"
+" Foundation, Inc., 51 Franklin Street, πέμπτος όροφος, Boston,\n"
+" MA 02110-1301, USA."
+
+#: src/info.c:128
+msgid ""
+"Jeex is a small hexadecimal editor\n"
+"created with Gtk+."
+msgstr ""
+"Το Jeex είναι ένας μικρός δεκαεξαδικός επεξεργαστής\n"
+"δημιουργημένος σε Gtk+."
+
+#: src/menu.c:79
+msgid "Make a new file"
+msgstr "Δημιουργία νέου αρχείου"
+
+#: src/menu.c:84
+msgid "Open position.."
+msgstr "Άνοιγμα τοποθεσίας"
+
+#: src/menu.c:86
+msgid "Open all files of the selected folder."
+msgstr "Ανοίγει όλα τα αρχεία του επιλεγμένου φακέλου."
+
+#: src/menu.c:88
+msgid "Append File"
+msgstr "Επισύναψη αρχείου"
+
+#: src/menu.c:90
+msgid "Append the selected file at end of current file."
+msgstr ""
+"Επισυνάπτει το επιλεγμένο αρχείο στο τέλος\n"
+"του τρέχοντος αρχείου."
+
+#: src/menu.c:100
+msgid "Save the current file as..."
+msgstr "Αποθήκευση του τρέχοντος αρχείου ως..."
+
+#: src/menu.c:102
+msgid "Export to HTML"
+msgstr "Εξαγωγή σε HTML"
+
+#: src/menu.c:105
+msgid "Export the current file in HTML"
+msgstr "Εξάγει το τρέχον αρχείο σε HTML"
+
+#: src/menu.c:112
+msgid "Remove the current file from hard disk"
+msgstr "Αφαιρεί το τρέχον αρχείο απ' το σκληρό δίσκο"
+
+#: src/menu.c:115
+msgid "View file's properties"
+msgstr "Προβάλει τις ιδιότητες του αρχείου"
+
+#: src/menu.c:118
+msgid "Close the current file"
+msgstr "Κλείνει το τρέχον αρχείο"
+
+#: src/menu.c:123
+msgid "Restart Jeex"
+msgstr "Επανεκκίνηση Jeex"
+
+#: src/menu.c:126
+msgid ""
+"Restart Jeex\n"
+"( Unsaved changes will be lost )"
+msgstr ""
+"Επανεκκινεί το Jeex\n"
+"( μη αποθηκευμένες αλλαγές θα χαθούν )"
+
+#: src/menu.c:131
+msgid "File"
+msgstr "Αρχείο"
+
+#: src/menu.c:139
+msgid "Copy the selected text"
+msgstr "Αντιγράφει το επιλεγμένο αρχείο"
+
+#: src/menu.c:142
+msgid "Cut the selected text"
+msgstr "Αποκόπτει το επιλεγμένο αρχείο"
+
+#: src/menu.c:145
+msgid "Paste the cutted or copied text"
+msgstr "Επικόλληση του αποκομμένου ή αντιγραμμένου κειμένου"
+
+#: src/menu.c:148
+msgid "Delete the selected text"
+msgstr "Διαγράφει το επιλεγμένο αρχείο"
+
+#: src/menu.c:150
+msgid "Insert"
+msgstr "Εισαγωγή"
+
+#: src/menu.c:152
+msgid ""
+"Insert a binary, hexadecimal, ascii\n"
+"or octal text into current file."
+msgstr ""
+"Εισάγει ένα δυαδικό, δεκαεξαδικό, ascii,\n"
+"ή οκταδικό κείμενο στο τρέχον αρχείο."
+
+#: src/menu.c:155
+msgid "Insert from bit operation"
+msgstr "Εισαγωγή μέσω ψηφιακής διεργασίας"
+
+#: src/menu.c:158
+msgid "Insert a byte result from your operation with bits"
+msgstr "Εισάγει ένα byte ως αποτέλεσμα της διεργασίας σας με bit"
+
+#: src/menu.c:160
+msgid "Reverse"
+msgstr "Αντιστροφή"
+
+#: src/menu.c:162
+msgid "Reverse the selected text"
+msgstr "Αντιστρέφει το επιλεγμένο κείμενο"
+
+#: src/menu.c:178
+msgid ""
+"Delete all the contents of the file.\n"
+"The original file can be restored by\n"
+"clicking on the refresh button."
+msgstr ""
+"Διαγράφει όλα τα περιεχόμενα του αρχείου.\n"
+"Το πρωτότυπο αρχείο μπορεί να ανακτηθεί\n"
+"επιλέγοντας το κουμπί «Ανανέωση»."
+
+#: src/menu.c:186
+msgid "Change jeex settings"
+msgstr "Αλλάξτε τις ρυθμίσεις του jeex"
+
+#: src/menu.c:188
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: src/menu.c:195
+msgid "Add View"
+msgstr "Προσθήκη παραθύρου"
+
+#: src/menu.c:199
+msgid "Show Hash"
+msgstr "Εμφάνιση αθροίσματος ελέγχου"
+
+#: src/menu.c:202
+msgid ""
+"View MD5, SHA-1 and SHA-256 hashes\n"
+"of the current file"
+msgstr ""
+"Προβάλλει τα αθροίσματα ελέγχου MD5, SHA-1 και SHA-256\n"
+"του τρέχοντος αρχείου"
+
+#: src/menu.c:208
+msgid "Difference with another file"
+msgstr "Διαφορά από άλλο έγγραφο"
+
+#: src/menu.c:211
+msgid ""
+"View the current file differences\n"
+"with another chosen file"
+msgstr ""
+"Προβάλλει τις διαφορές του τρέχοντος αρχείου\n"
+"από ένα άλλο αρχείο"
+
+#: src/menu.c:214
+msgid "Show in other format"
+msgstr "Εμφάνιση σε άλλη μορφή"
+
+#: src/menu.c:217
+msgid ""
+"View the current file in other format, example:\n"
+"ascii, octal, decimal, etc.."
+msgstr ""
+"Εμφανίζει το τρέχον αρχείο σε άλλη μορφή, παράδειγμα:\n"
+"ascii, οκταδική, δεκαδική, κτλ.."
+
+#: src/menu.c:226
+msgid ""
+"View the characters table converted in binary,\n"
+"hexadecimal, octal and decimal."
+msgstr ""
+"Εμφανίζει πίνακα χαρακτήρων σε δυαδική,\n"
+"δεκαεξαδική, οκταδκή και δεκαδική μορφή."
+
+#: src/menu.c:229
+msgid "View"
+msgstr "Προβολή"
+
+#: src/menu.c:237
+msgid "Search bytes in the current file"
+msgstr "Αναζητά bytes στο συγκεκριμένο αρχείο"
+
+#: src/menu.c:241
+msgid "Search and replace bytes in the current file"
+msgstr "Αναζητά και αντικαθιστά bytes στο συγκεκριμένο αρχείο"
+
+#: src/menu.c:243
+msgid "Search byte with regex"
+msgstr "Αναζήτηση byte με κανονική έκφραση"
+
+#: src/menu.c:250
+msgid "Clear Highlight"
+msgstr "Καθαρισμός μαρκαρισμένων"
+
+#: src/menu.c:258
+msgid "Moves the scrollbar into chosen offset."
+msgstr "Μετακινεί το srollbar στην επιλεχθείσα θέση"
+
+#: src/menu.c:260
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: src/menu.c:269
+msgid "Manage the bookmarks."
+msgstr "Διαχειριστείτε τους σελιδοδείκτες."
+
+#: src/menu.c:271
+msgid "Add bookmark"
+msgstr "Προσθήκη σελιδοδείκτη"
+
+#: src/menu.c:273
+msgid "Add a bookmark."
+msgstr "Προσθέτει ένα σελιδοδείκτη."
+
+#: src/menu.c:281
+msgid "Next bookmark"
+msgstr "Επόμενος σελιδοδείκτης"
+
+#: src/menu.c:283
+msgid "Go to the next bookmark."
+msgstr "Πηγαίνει στον επόμενο σελιδοδείκτη."
+
+#: src/menu.c:286
+msgid "Previous bookmark"
+msgstr "Προηγούμενος σελιδοδείκτης"
+
+#: src/menu.c:288
+msgid "Go to the previous bookmark."
+msgstr "Πηγαίνει στον προηγούμενο σελιδοδείκτη."
+
+#: src/menu.c:299
+msgid "Extracts all Strings"
+msgstr "Εξαγωγή όλων των συμβολοσειρών"
+
+#: src/menu.c:301
+msgid "Extract all strings in the current file"
+msgstr "Εξάγει όλες τις συμβολοσειρές του αρχείου"
+
+#: src/menu.c:303
+msgid "Split the current file"
+msgstr "Διαίρεση τρέχοντος αρχείου"
+
+#: src/menu.c:306
+msgid "Split the current file in files with fix size"
+msgstr "Διαιρεί το τρέχον αρχείο σε αρχεία συγκεκριμένου μεγέθους"
+
+#: src/menu.c:308
+msgid "Show file's structures"
+msgstr "Εμφάνιση δομών αρχείου"
+
+#: src/menu.c:311
+msgid "Show the file's data in personalized structures"
+msgstr ""
+"Εμφανίζει τις περιεχόμενα του αρχείου\n"
+"σε συγκεκριμένους τύπους"
+
+#: src/menu.c:313
+msgid "Tools"
+msgstr "Εργαλεία"
+
+#: src/menu.c:363
+msgid ""
+"View information about Jeex:\n"
+"Credits, License and Version."
+msgstr ""
+"Εμφανίζει πληροφορίες σχετικά με το Jeex:\n"
+"Μνείες, άδεια και έκδοση."
+
+#: src/menu.c:366
+msgid "Help"
+msgstr "Βοήθεια"
+
+#: src/preferences.c:34 src/preferences.c:464
+msgid "Preferences"
+msgstr "Preferences"
+
+#: src/preferences.c:139
+#, fuzzy
+msgid ""
+"<big><b>Error while saving the preferences</b></big>\n"
+"\n"
+"Unable to create the <i>.config/jeex</i> folder in your home.\n"
+"This makes it impossible to save your preferences\n"
+"for future sessions."
+msgstr ""
+"<big><b>Σφάλμα κατά την αποθήκευση των προτιμήσεων</b></big>\n"
+"\n"
+"Αδυναμία δημιουργίας του φακέλου <i>.jeex</i> στον\n"
+"προσωπικό σας φάκελο. Αυτό καθιστά αδύνατη την\n"
+"αποθήκευση των προτιμήσεων για μελλοντικές συνεδρίες."
+
+#: src/preferences.c:186 src/preferences.c:211
+msgid ""
+"<big><b>Error while saving the preferences</b></big>\n"
+"\n"
+msgstr ""
+"<big><b>Σφάλμα κατά την αποθήκευση των προτιμήσεων</b></big>\n"
+"\n"
+
+#: src/preferences.c:192
+msgid ""
+"An I/O error has occurred. Check that the device\n"
+"you're trying to save to is not damaged."
+msgstr ""
+"Ένα I/O σφάλμα συνέβη. Ελέγξτε ότι η συσκευή στην\n"
+"οποία προσπαθείτε να αποθηκεύσετε δεν έχει ζημιά."
+
+#: src/preferences.c:196
+msgid "The file you are trying to save to is a directory."
+msgstr ""
+"Το αρχείο το οποίο προσπαθείτε να αποθηκεύσετε είναι\n"
+"κατάλογος."
+
+#: src/preferences.c:199
+msgid "The file cannot be open because it cannot be found."
+msgstr "Το αρχείο δεν μπορεί να ανοιχθεί επειδή δεν εντοπίζεται."
+
+#: src/preferences.c:202
+msgid "An unknown error has occurred while file saving."
+msgstr "Ένα άγνωστο σφάλμα συνέβη κατά την αποθήκευση."
+
+#: src/preferences.c:212
+msgid "Resource temporarily unavailable."
+msgstr "Πηγή προσωρινά μη διαθέσιμη."
+
+#: src/preferences.c:279 src/preferences.c:371
+msgid ""
+"<big><b>Error while loading the preferences</b></big>\n"
+"\n"
+msgstr ""
+"<big><b>Σφάλμα κατά την φόρτωση των προτιμήσεων</b></big>\n"
+"\n"
+
+#: src/preferences.c:330
+msgid ""
+"<big><b>Error while saving the preferences</b></big>\n"
+"\n"
+"Unable to make the <i>.jeex</i> folder in your home.\n"
+"This makes it impossible to save your preferences\n"
+"for future sessions."
+msgstr ""
+"<big><b>Σφάλμα κατά την αποθήκευση των προτιμήσεων</b></big>\n"
+"\n"
+"Αδυναμία δημιουργίας του φακέλου <i>.jeex</i> Στον\n"
+"προσωπικό σας φάκελο. Αυτό καθιστά αδύνατη την\n"
+"αποθήκευση των προτιμήσεων για μελλοντικές συνεδρίες."
+
+#: src/preferences.c:379
+msgid ""
+"Preferences file that you trying to examine\n"
+"is in a unknown format."
+msgstr ""
+"Το αρχείο προτιμήσεων που προσπαθείτε να ορίσετε\n"
+"είναι σε άγνωστη μορφή."
+
+#: src/preferences.c:383
+msgid "Preferences file wasn't found."
+msgstr "Το αρχείο προτιμήσεων δε βρέθηκε."
+
+#: src/preferences.c:386
+msgid "Unknown Error."
+msgstr "Άγνωστο σφάλμα."
+
+#: src/preferences.c:473
+msgid "<big><b>Setting your preferences</b></big>"
+msgstr "<big><b>Καθορισμός των προτιμήσεων σας</b></big>"
+
+#: src/preferences.c:572
+msgid "<b>File Loading</b>"
+msgstr "<b>Φόρτωση αρχείου</b>"
+
+#: src/preferences.c:579
+msgid "\tMax file size: "
+msgstr "\tΜέγιστο μέγεθος αρχείου: "
+
+#: src/preferences.c:599
+msgid "\tMax loading buffer: "
+msgstr "\tΜέγιστη φόρτωση μνήμης: "
+
+#: src/preferences.c:623
+msgid "<b>Max Elements</b>"
+msgstr "<b>Μέγιστος αριθμός στοιχείων</b>"
+
+#: src/preferences.c:630
+msgid "\tBookmarks: "
+msgstr "\tΣελιδοδείκτες: "
+
+#: src/preferences.c:640
+msgid "\tRecent files: "
+msgstr "\tΠρόσφατα αρχεία: "
+
+#: src/preferences.c:650
+msgid "\tChars in the tab title: "
+msgstr "\tΧαρακτήρες στον τίτλο καρτέλας: "
+
+#: src/preferences.c:663
+msgid "<b>File Saving</b>"
+msgstr "<b>Αποθήκευση Αρχείου</b>"
+
+#: src/preferences.c:670
+msgid "\tMax saving buffer: "
+msgstr "\tΜέγιστος χώρος αποθήκευσης στη μνήμη: "
+
+#: src/preferences.c:694
+msgid "Create a backup copy of files before saving"
+msgstr "Δημιουργία αντιγράφου ασφαλείας αρχείου πριν την αποθήκευση"
+
+#: src/preferences.c:705
+msgid "Log actions"
+msgstr "Ενέργειες σύνδεσης"
+
+#: src/preferences.c:710
+msgid "<b>Editor</b>"
+msgstr "<b>Επεξεργαστής</b>"
+
+#: src/preferences.c:754
+msgid "<b>Font &amp; Color</b>"
+msgstr "<b>Γραμματοσειρά &amp; Χρώμα</b>"
+
+#: src/preferences.c:761
+msgid "\tFont: "
+msgstr "\tΓραμματοσειρά:"
+
+#: src/preferences.c:770
+msgid "\tText color: "
+msgstr "\tΧρώμα κειμένου: "
+
+#: src/preferences.c:791
+msgid "<b>Appearance Main Window</b>"
+msgstr "<b>Εμφάνιση κυρίως παραθύρου</b>"
+
+#: src/preferences.c:800
+msgid "\tTransparency: "
+msgstr "\tΔιαφάνεια: "
+
+#: src/preferences.c:814
+msgid "\tTheme: "
+msgstr "\tΘέμα: "
+
+#: src/preferences.c:818
+msgid "Blue Theme"
+msgstr "Μπλέ"
+
+#: src/preferences.c:819
+msgid "Red Theme"
+msgstr "Κόκκινο"
+
+#: src/preferences.c:820
+msgid "Dark Red Theme"
+msgstr "Σκούρο κόκκινο"
+
+#: src/preferences.c:821
+msgid "Green Theme"
+msgstr "Πράσινο"
+
+#: src/preferences.c:822
+msgid "White Theme"
+msgstr "Λευκό"
+
+#: src/preferences.c:823
+msgid "Default Gtk+ Theme"
+msgstr "Προεπιλεγμένο Gtk+"
+
+#: src/preferences.c:833
+msgid "<b>Jeex Elements</b>"
+msgstr "<b>Στοιχεία Jeex</b>"
+
+#: src/preferences.c:843
+msgid "Cursor in text insert mode"
+msgstr "Κέρσορας σε μορφή εισαγωγής"
+
+#: src/preferences.c:854
+msgid "Show jeex icon in systray"
+msgstr "Εμφάνιση εικονιδίου Jeex στην εργαλειοθήκη"
+
+#: src/preferences.c:865
+msgid "Show toolbar"
+msgstr "Εμφάνιση μπάρας εργαλείων"
+
+#: src/preferences.c:876
+msgid "Show 0x prefix in the byte hexadecimal value"
+msgstr "Εμφάνιση προθέματος 0x στις δεκαεξαδικές τιμές"
+
+#: src/preferences.c:881
+msgid "<b>Appearance</b>"
+msgstr "<b>Εμφάνιση</b>"
+
+#: src/tools.c:94
+msgid "Split"
+msgstr "Διαίρεση"
+
+#: src/tools.c:101
+msgid "Destination Folder: "
+msgstr "Φάκελος προορισμού: "
+
+#: src/tools.c:106
+msgid "Choose folder.."
+msgstr "Διαλέξτε φάκελο.."
+
+#: src/tools.c:110
+msgid "Destination file name: "
+msgstr "Όνομα αρχείου προορισμού: "
+
+#: src/tools.c:118
+msgid "Use default destination"
+msgstr "Χρήση προεπιλεγμένου προορισμού"
+
+#: src/tools.c:124
+msgid "Bytes in each file: "
+msgstr "Byte σε κάθε αρχείο: "
+
+#: src/tools.c:182
+msgid ""
+"<big><b>No Output File</b></big>\n"
+"\n"
+"You must specify an output file name!"
+msgstr ""
+"<big><b>Δεν υπάρχει αρχείο προς εξαγωγή</b></big>\n"
+"\n"
+"Πρέπει να καθορίσετε όνομα αρχείου προς εξαγωγή!"
+
+#: src/tools.c:264
+msgid "File has been split\n"
+msgstr "Το αρχείο διαιρέθηκε\n"
+
+#: src/tools.c:285
+msgid "Strings Extractor"
+msgstr "Εξαγωγέας συμβολοσειρών"
+
+#: src/tools.c:299
+msgid "Here are all the strings found in the current file.\n"
+msgstr "Εδώ είναι όλες οι συμβολοσειρές που βρέθηκαν σε αυτό το αρχείο.\n"
+
+#: src/tools.c:376
+#, c-format
+msgid ""
+"\n"
+"<b>Strings found</b>: <i>%d</i>\n"
+msgstr ""
+"\n"
+"<b>Βρέθηκαν</b> <i>%d</i> <b>συμβολοσειρές</b>\n"
+
+#: src/tools.c:460
+#, c-format
+msgid "Structure 1/%d"
+msgstr "Δομή 1/%d"
+
+#: src/tools.c:646
+#, c-format
+msgid "Structure %d/%d"
+msgstr "Δομή %d/%d"
+
+#, fuzzy
+#~ msgid ""
+#~ "Strings Revision:\n"
+#~ "David Paleino ( d.paleino@gmail.com )\n"
+#~ "\n"
+#~ "Greek Translation:\n"
+#~ "Alkis Mavridis ( alkismavridis@hotmail.com )\n"
+#~ msgstr ""
+#~ "Αναθεώρηση συμβολοσειρών:\n"
+#~ "David Paleino ( d.paleino@gmail.com )"
+
+#~ msgid "File has been joined!"
+#~ msgstr "Αρχείο προσετέθη!"
+
+#~ msgid "Join"
+#~ msgstr "Προσθέστε"
+
+#~ msgid "Input Folder: "
+#~ msgstr "Φάκελος εισόδου: "
+
+#~ msgid "Choose folder..."
+#~ msgstr "Διαλέξτε ένα φάκελο..."
+
+#~ msgid "Use default Destination"
+#~ msgstr "Χρησιμοποίηση προεπιλεγμένου προορισμού"
+
+#~ msgid "Join more files"
+#~ msgstr "Προσθήκη περισσοτέρων αρχείων"
+
+#~ msgid "*nix Script"
+#~ msgstr "*nix Script"
+
+#~ msgid "PPM <i>( Ascii )</i> Image"
+#~ msgstr "Εικόνα PPM <i>( Ascii )</i>"
+
+#~ msgid "XPM Image"
+#~ msgstr "Εικόνα XPM"
+
+#~ msgid ""
+#~ "<big><b>Error in file type recognition</b></big>\n"
+#~ "\n"
+#~ msgstr ""
+#~ "<big><b>Σφάλμα κατά την αναγνώριση τύπου αρχείου</b></big>\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "An I/O error does not allow you to read the\n"
+#~ "file where magic numbers and relative descriptions\n"
+#~ "are stored."
+#~ msgstr ""
+#~ "Ένα I/O σφάλμα δεν σας επιτρέπει να διαβάσετε το\n"
+#~ "αρχείο στο οποίο οι μαγικοί αριθμοί και οι σχετικές\n"
+#~ "περιγραφές είναι καταχωρημένες."
+
+#~ msgid ""
+#~ "File containing the magic numbers and relative\n"
+#~ "descriptions cannot be read for an unknown error."
+#~ msgstr ""
+#~ "Το αρχείο που περιέχει τους μαγικούς αριθμούς και\n"
+#~ "τις σχετικές περιγραφές δεν μπορεί να αναγνωσθεί λόγω\n"
+#~ "ενός αγνώστου σφάλματος."
+
+#~ msgid ""
+#~ "File containing the magic numbers and relative\n"
+#~ "descriptions cannot be read for a unknown error."
+#~ msgstr ""
+#~ "Το αρχείο που περιέχει τους μαγικούς αριθμούς και\n"
+#~ "τις σχετικές περιγραφές δεν μπορεί να αναγνωσθεί λόγω\n"
+#~ "ενός αγνώστου σφάλματος."
+
+#~ msgid "<big><b>Error in file type recognition</b></big>"
+#~ msgstr "<big><b>Σφάλμα κατά την αναγνώριση τύπου αρχείου</b></big>"
+
+#~ msgid ""
+#~ "File containing the magic numbers and relative\n"
+#~ "descriptions is temporarily unavailable"
+#~ msgstr ""
+#~ "Το αρχείο που περιέχει τους μαγικούς αριθμούς και\n"
+#~ "τις σχετικές περιγραφές είναι προσωρινά μη διαθέσιμο."
+
+#~ msgid "Text File"
+#~ msgstr "Αρχείο κειμένου"
+
+#~ msgid "Binary File"
+#~ msgstr "Δυαδικό αρχείο"
+
+#~ msgid "%s/preferences.conf"
+#~ msgstr "%s/preferences.conf"

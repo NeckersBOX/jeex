@@ -1,0 +1,90 @@
+# Copyright 2008 - David Paleino ( d.paleino@gmail.com )
+
+# Jeex is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3 of the License, or
+# (at your option) any later version.
+
+# Jeex is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+# MA 02110-1301, USA.
+
+PACKAGE      = jeex
+POTFILE      = $(PACKAGE).pot
+INSTALL      = /usr/bin/install -D
+INSTALL_DATA = $(INSTALL) -m 644
+INSTALL_DIR  = /usr/bin/install -d
+DESTDIR = $(destdir)
+LOCALE_DIR   = $(DESTDIR)/usr/share/locale
+
+
+MSGMERGE     = msgmerge -v
+XGETTEXT     = xgettext --default-domain=$(PACKAGE) --add-comments -i -LC --from-code=utf-8
+MSGFMT       = msgfmt --statistics --check-format --verbose
+
+# Helpers
+POFILES      = $(wildcard *.po)
+LANGS        = $(patsubst %.po,%,$(POFILES))
+MOFILES      = $(patsubst %.po,%.mo,$(POFILES))
+SRC          = $(wildcard ../src/*.c ../src/*.h ../plugin/*.c ../plugin/*.h)
+#$(wildcard ../*.h)
+
+#default:: $(MOFILES)
+
+all::  update-po $(MOFILES) missing
+
+$(POTFILE): $(SRC)
+	echo $(SRC)
+	$(XGETTEXT) --keyword=_ --keyword=N_ $< --keyword=report:3 $(SRC)
+	@if cmp -s $(PACKAGE).po $(POTFILE); then \
+		rm -f $(PACKAGE).po; \
+	else \
+		mv -f $(PACKAGE).po $(POTFILE); \
+	fi; \
+	sed -i '/^"Content-Type/s/CHARSET/UTF-8/' $(POTFILE)
+
+# generate po if doesn't exist
+missing:
+	langs="$(LANGS)"; \
+	for lng in $$langs; do \
+		if [ ! -f $$lng.po ]; then \
+			msginit --no-translator -l $$lng -i $(POTFILE); \
+			$(MSGFMT) -o $$lng.mo $$lng.po; \
+		fi \
+	done
+
+update-po: Makefile $(POTFILE)
+	$(MAKE) refresh-po
+
+refresh-po: Makefile
+	for file in $(POFILES); do \
+		lang=`basename $$file .po`; \
+		if $(MSGMERGE) $$lang.po $(POTFILE) > $$lang.pot ; then \
+			mv -f $$lang.pot $$lang.po ; \
+			echo "$(MSGMERGE) of $$lang succeeded" ; \
+		else \
+			echo "$(MSGMERGE) of $$lang failed" ; \
+			rm -f $$lang.pot ; \
+		fi \
+	done
+
+clean:
+	@rm -fv *.mo *~ .depend
+
+install: $(MOFILES)
+	@for n in $(MOFILES); do \
+		l=`basename $$n .mo`; \
+		$(INSTALL_DIR) $(LOCALE_DIR)/$$l/LC_MESSAGES; \
+		$(INSTALL_DATA) --verbose $$n $(LOCALE_DIR)/$$l/LC_MESSAGES/$(PACKAGE).mo; \
+	done
+
+%.mo: %.po
+	$(MSGFMT) -o $@ $<
+
+.PHONY: missing depend

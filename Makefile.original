@@ -1,0 +1,84 @@
+# Copyright 2008, 2009, 2010 - HdS619 ( hds619@gmail.com )
+
+# Jeex is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3 of the License, or
+# (at your option) any later version.
+
+# Jeex is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+# MA 02110-1301, USA.
+
+OBJ     = edit.o file.o main.o view.o preferences.o bookmark.o \
+          info.o general-function.o notebook-manage.o menu.o \
+          html-export.o logging.o search.o \
+          terminal-actions.o tools.o plugin.o
+CC      = gcc
+#SUBDIRS      = po plugin
+SUBDIRS		 = plugin
+INSTALL      = /usr/bin/install -D
+INSTALL_DIR  = /usr/bin/install -d
+INSTALL_DATA = $(INSTALL) -m 644
+
+CFLAGS = `pkg-config --cflags gtk+-2.0` $(C_PARAM)
+
+LINK    = `pkg-config --libs --cflags gtk+-2.0` -lm -lmagic -pipe $(L_PARAM)
+
+ifeq ($(DEBUG), true)
+      CFLAGS += -g -DDEBUG_ENABLE=1
+endif
+ifneq ($(destdir),)
+       CFLAGS += -DDESTDIR="\"$(destdir)\""
+endif
+
+compile: other-make object-make
+
+object-make: $(OBJ)
+	$(CC) $^ plugin/*.o -o jeex $(LINK)
+
+%.o: src/%.c
+	$(CC) -c $< -o $@ $(CFLAGS)
+
+other-make:
+	@for d in $(SUBDIRS); \
+		do make -C $$d; \
+		[ $$? = 0 ] || exit 1; \
+	done
+
+install: uninstall po-install
+	$(INSTALL) jeex $(destdir)/usr/bin/jeex
+	$(INSTALL_DATA) img/jeex.png $(destdir)/usr/share/jeex/jeex.png
+	$(INSTALL_DATA) img/list_menu.png $(destdir)/usr/share/jeex/list_menu.png
+	$(INSTALL_DATA) img/diff.png $(destdir)/usr/share/jeex/diff.png
+	$(INSTALL_DATA) jeex.desktop $(destdir)/usr/share/applications/jeex.desktop
+	$(INSTALL_DATA) img/jeex.png $(destdir)/usr/share/icons/jeex.png
+	$(INSTALL) jeex.rc $(destdir)/etc/jeex/jeex.rc -m 666
+
+po-install:
+	   make install -C po
+
+uninstall:
+	   @rm -vf $(destdir)/usr/bin/jeex
+	   @rm -rvf $(destdir)/usr/share/jeex
+	   @rm -vf $(destdir)/usr/share/applications/jeex.desktop
+	   @rm -vf $(destdir)/usr/share/icons/jeex.png
+	   @rm -vf $(destdir)/usr/share/locale/*/LC_MESSAGES/jeex.mo
+	   @rm -vrf $(destdir)/etc/jeex
+
+snapshot: clean
+	  make update-po -C po
+	  tar -cvjf ../jeex.dev-pkg-`date +"%Y%m%d"`.tar.bz2 ../jeex-12.0.4
+
+clean:
+	@for d in $(SUBDIRS); \
+		do make clean -C $$d; \
+		[ $$? = 0 ] || exit 1; \
+	done
+	@rm -vf *.o jeex
+
